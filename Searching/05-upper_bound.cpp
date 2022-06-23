@@ -3,18 +3,18 @@ using namespace std;
 
 int upper_bound(const vector<int> &arr, int x)
 {
-    int lw = 0, hi = arr.size() - 1, ans = arr.size(), mid;
-    while (lw <= hi)
+    int low = 0, hight = arr.size() - 1, ans = arr.size(), mid;
+    while (low <= hight)
     {
-        mid = (hi + lw) / 2;
+        mid = (hight + low) / 2;
         if (arr[mid] > x)
         {
             ans = mid;
-            hi = mid - 1;
+            hight = mid - 1;
         }
         else
         {
-            lw = mid + 1;
+            low = mid + 1;
         }
     }
     return ans;
