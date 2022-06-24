@@ -19,3 +19,43 @@ Data Structure and Algorithms Implementation with different languages
 - Array Size
   - Global Array Size: `10^7`
   - Local Array Size: `10^5`
+
+
+## Path
+
+- Complexity
+- Binary Search 1
+- Data Structure:
+  - Stack, Queue, Circular Queue
+  - Disjoint sets
+  - Segment Tree 1
+  - Segment Tree 2
+  - Binary Indexed Tree
+- Graph theory
+  - Basic of Graph
+  - Adjacency matrix
+  - Adjacency list
+  - Breadth-first search
+  - Depth First Search
+  - Topological Sort
+  - Dijkstra
+  - Bellman–Ford
+  - Floyd Warshall
+  - Minimum Spanning Tree 1, 2
+  - Maximum flow 1, 2
+  - Longest path problem
+  - Strongly connected component
+- Dynamic programming: 
+  - Fibonacci, Shortest path, LIS and Path Printing,
+  - Longest common subsequence, Coin Change / 0-1 Napsack
+  - Subset Sam, Combinatorics, Decision Problem
+  - Matrix Chain Multiplication
+- Number theory:
+  - Modular arithmetic
+  - Sieve of Eratosthenes
+  - Beatwise Sieve
+  - Derangement
+- String:
+  - Rabin-karp string matching
+  - Knuth–Morris–Pratt (KMP)
+- Meet in the middle Technique
