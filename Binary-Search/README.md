@@ -37,6 +37,7 @@
 - LightOJ: Binary Search/Bisection: https://lightoj.com/problems/category/binary-search
 - LeetCode List: https://leetcode.com/tag/binary-search
 - B-S2-(M10+M11): Synapse Beginner Long 9 [Searching]: https://vjudge.net/contest/460870
+- LightOJ: Binary Search/Bisection: https://lightoj.com/problems/category/binary-search
 - [x] [UVa: 10611 - The Playboy Chimp (Easy)](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1552)
 - [x] [LeetCode: 1351. Count Negative Numbers in a Sorted Matrix (Easy)](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
 - [x] [LeetCode: 278. First Bad Version (Easy)](https://leetcode.com/problems/first-bad-version/)
