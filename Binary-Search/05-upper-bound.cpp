@@ -6,7 +6,7 @@ int upper_bound(const vector<int> &arr, int x)
     int low = 0, hight = arr.size() - 1, ans = arr.size(), mid;
     while (low <= hight)
     {
-        mid = (hight + low) / 2;
+        mid = low + (hight - low) / 2;
         if (arr[mid] > x)
         {
             ans = mid;

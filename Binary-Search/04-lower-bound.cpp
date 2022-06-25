@@ -13,7 +13,9 @@ int lower_bound(const vector<int> &arr, int x)
             hight = mid - 1;
         }
         else
+        {
             low = mid + 1;
+        }
     }
     return ans;
 }
