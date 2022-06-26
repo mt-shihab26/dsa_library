@@ -23,15 +23,46 @@ Data Structure and Algorithms Implementation with different languages
 
 ## Path
 
-- Complexity
-- Binary Search 1
+- [x] Complexity
+- [x] Recursion
+- [x] Sorting:
+  - [x] Selection Sort
+  - [x] Bubble Sort
+  - [x] Insertion Sort
+  - [x] Merge Sort
+  - [x] Counting Sort
+  - Quick Sort
+  - Compare Storting
+- Ad-hoc:
+  - Prefix sum
+  - Two-Pointer
+- Number theory:
+  - Modular arithmetic
+  - Sieve of Eratosthenes
+  - Beatwise Sieve
+  - Derangement
+- Binary Search:
+  - [x] Binary Search
+  - [x] Lower Bound
+  - [x] Upper Bound
+  - [x] Peak Element
+  - [x] First Last Occurrence
 - Data Structure:
-  - Stack, Queue, Circular Queue
+  - Stack
+  - Queue, Circular Queue
+  - Linked List
   - Disjoint sets
+- Greedy:
+- Dynamic programming: 
+  - Fibonacci, Shortest path, LIS and Path Printing,
+  - Longest common subsequence, Coin Change / 0-1 Napsack
+  - Subset Sam, Combinatorics, Decision Problem
+  - Matrix Chain Multiplication
+- Trees:
   - Segment Tree 1
   - Segment Tree 2
   - Binary Indexed Tree
-- Graph theory
+- Graph theory:
   - Basic of Graph
   - Adjacency matrix
   - Adjacency list
@@ -45,16 +76,6 @@ Data Structure and Algorithms Implementation with different languages
   - Maximum flow 1, 2
   - Longest path problem
   - Strongly connected component
-- Dynamic programming: 
-  - Fibonacci, Shortest path, LIS and Path Printing,
-  - Longest common subsequence, Coin Change / 0-1 Napsack
-  - Subset Sam, Combinatorics, Decision Problem
-  - Matrix Chain Multiplication
-- Number theory:
-  - Modular arithmetic
-  - Sieve of Eratosthenes
-  - Beatwise Sieve
-  - Derangement
 - String:
   - Rabin-karp string matching
   - Knuth–Morris–Pratt (KMP)
