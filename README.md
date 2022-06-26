@@ -20,7 +20,6 @@ Data Structure and Algorithms Implementation with different languages
   - Global Array Size: `10^7`
   - Local Array Size: `10^5`
 
-
 ## Path
 
 - [x] Complexity
@@ -31,11 +30,11 @@ Data Structure and Algorithms Implementation with different languages
   - [x] Insertion Sort
   - [x] Merge Sort
   - [x] Counting Sort
+  - [x] Compare Storting
   - Quick Sort
-  - Compare Storting
-- Ad-hoc:
-  - Prefix sum
-  - Two-Pointer
+- [x] Ad-hoc:
+  - [x] Prefix Sum
+  - [x] Two-Pointer
 - Number theory:
   - Modular arithmetic
   - Sieve of Eratosthenes
@@ -53,7 +52,7 @@ Data Structure and Algorithms Implementation with different languages
   - Linked List
   - Disjoint sets
 - Greedy:
-- Dynamic programming: 
+- Dynamic programming:
   - Fibonacci, Shortest path, LIS and Path Printing,
   - Longest common subsequence, Coin Change / 0-1 Napsack
   - Subset Sam, Combinatorics, Decision Problem
