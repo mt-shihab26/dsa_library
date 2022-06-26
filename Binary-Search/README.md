@@ -7,8 +7,8 @@
 - Binary Search
 - Lower Bound
 - Upper Bound
-- Find Peak Element
-- Find First and Last Position of Element in Sorted Array
+- Peak Element
+- First Last Occurrence
 - Rotated Array with Binary search
 
 ## Notes
@@ -45,10 +45,10 @@
 - [x] [LeetCode: 69. Sqrt(x) (Easy)](https://leetcode.com/problems/sqrtx/)
 - [x] [UVa: 10474 - Where is the Marble? (Easy)](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1415)
 - [x] [LightOJ: 1088.Points in Segments (Easy)](https://lightoj.com/problem/points-in-segments)
-- [x] [LeetCode: 34. Find First and Last Position of Element in Sorted Array (Medium)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 - [x] [CodeForces: 817C. Really Big Numbers (\*1600)](https://codeforces.com/problemset/problem/817/C)
 - [x] [CodeForces: 1613C. Poisoned Dagger](https://codeforces.com/contest/1613/problem/C)
 - [x] [LeetCode: 162. Find Peak Element (Medium)](https://leetcode.com/problems/find-peak-element/)
+- [x] [LeetCode: 34. Find First and Last Position of Element in Sorted Array (Medium)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 - [ ] [SpOJ: EKO.Eko](https://www.spoj.com/problems/EKO/)
 - [ ] [SpOJ: AGGRCOW - Aggressive cows](https://www.spoj.com/problems/AGGRCOW/)
 - [ ] [SpOJ: PIE.Pie](https://www.spoj.com/problems/PIE/)
