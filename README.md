@@ -32,7 +32,7 @@ Data Structure and Algorithms Implementation with different languages
   - [x] Counting Sort
   - [x] Compare Storting
   - Quick Sort
-- Searching:
+- [x] Searching:
   - [x] Linear Search
   - [x] Binary Search
   - [x] Lower Bound

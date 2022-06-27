@@ -10,6 +10,7 @@
 - [x] First Last Occurrence
 - [x] Rotated Array
 - [x] Max in a Hill
+- [x] Square Root
 
 ## Notes
 
@@ -22,10 +23,10 @@
 - Luv Binary Search Playlist: https://youtube.com/playlist?list=PLauivoElc3gjE_s-7owHO0RVb_jj7Rx85
 - [x] [বাইনারি সার্চ - binary search (Tamim Shahriar)](https://youtu.be/NMC6ltspWys)
 - [x] Greedy and Searching: BAPS - BACS Online Programming Camp, 2020: https://youtu.be/IKDtlUMW7F4?list=PLWtSipmftM8qbtfj2WkoQ7Z9ZrhCl6rPz&t=6665
+- [x] Binary Search Learning Series (AlgoBot) : https://youtube.com/playlist?list=PLknt5L1fvp7WDuYtL-1sRa910QL_6AQC8
 - Synapse Beginner Class-10-Searching: https://youtu.be/1m2Ab_cB68o
 - Synapse Beginner Class 11 - Binary Search Problem Disscussion (06 October, 2021): https://youtu.be/4JVO_U34UxM
 - CodeForce edu Binary search theory: https://codeforces.com/edu/course/2/lesson/6
-- Binary Search Learning Series (AlgoBot) : https://youtube.com/playlist?list=PLknt5L1fvp7WDuYtL-1sRa910QL_6AQC8
 
 ## Solve Problems
 
