@@ -34,6 +34,7 @@
 - LeetCode List: https://leetcode.com/tag/binary-search
 - B-S2-(M10+M11): Synapse Beginner Long 9 [Searching]: https://vjudge.net/contest/460870
 - LightOJ: Binary Search/Bisection: https://lightoj.com/problems/category/binary-search
+- [x] CodeForce: edu Binary search step 1 practice: https://codeforces.com/edu/course/2/lesson/6/1/practice
 - [x] [UVa: 10611 - The Playboy Chimp (Easy)](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1552)
 - [x] [LeetCode: 1351. Count Negative Numbers in a Sorted Matrix (Easy)](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
 - [x] [LeetCode: 278. First Bad Version (Easy)](https://leetcode.com/problems/first-bad-version/)
@@ -48,6 +49,7 @@
 - [x] [LeetCode: 153. Find Minimum in Rotated Sorted Array (Medium)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [x] [LeetCode: 852. Peak Index in a Mountain Array (Easy)](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
 - [x] [LeetCode: 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [x] [CodeForce: 1352C. K-th Not Divisible by n (\*1200)](https://codeforces.com/problemset/problem/1352/C)
 - [ ] [SpOJ: EKO.Eko](https://www.spoj.com/problems/EKO/)
 - [ ] [SpOJ: AGGRCOW - Aggressive cows](https://www.spoj.com/problems/AGGRCOW/)
 - [ ] [SpOJ: PIE.Pie](https://www.spoj.com/problems/PIE/)
