@@ -32,20 +32,20 @@ Data Structure and Algorithms Implementation with different languages
   - [x] Counting Sort
   - [x] Compare Storting
   - Quick Sort
-- [x] Ad-hoc:
-  - [x] Prefix Sum
-  - [x] Two-Pointer
-- Number theory:
-  - Modular arithmetic
-  - Sieve of Eratosthenes
-  - Beatwise Sieve
-  - Derangement
-- Binary Search:
+- Searching:
+  - [x] Linear Search
   - [x] Binary Search
   - [x] Lower Bound
   - [x] Upper Bound
   - [x] Peak Element
   - [x] First Last Occurrence
+  - [x] Rotated Array
+  - [x] Max in a Hill
+- Number theory:
+  - Modular arithmetic
+  - Sieve of Eratosthenes
+  - Beatwise Sieve
+  - Derangement
 - Data Structure:
   - Stack
   - Queue, Circular Queue

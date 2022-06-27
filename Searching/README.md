@@ -1,26 +1,21 @@
 # Searching
 
-# Binary search
-
 ## Topics
 
-- Binary Search
-- Lower Bound
-- Upper Bound
-- Peak Element
-- First Last Occurrence
-- Rotated Array with Binary search
+- [x] Linear Search
+- [x] Binary Search
+- [x] Lower Bound
+- [x] Upper Bound
+- [x] Peak Element
+- [x] First Last Occurrence
+- [x] Rotated Array
+- [x] Max in a Hill
 
 ## Notes
 
 - Calculating mid:
   - `mid = (left + right) / 2` or
   - `mid = left + ((right - left) / 2)` this is better
-
-## Complexity
-
-- Time Complexity: `O(log n)`
-- Space complexity: `O(1)`
 
 ## Resources
 
@@ -49,6 +44,9 @@
 - [x] [CodeForces: 1613C. Poisoned Dagger](https://codeforces.com/contest/1613/problem/C)
 - [x] [LeetCode: 162. Find Peak Element (Medium)](https://leetcode.com/problems/find-peak-element/)
 - [x] [LeetCode: 34. Find First and Last Position of Element in Sorted Array (Medium)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [x] [LeetCode: 153. Find Minimum in Rotated Sorted Array (Medium)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [x] [LeetCode: 852. Peak Index in a Mountain Array (Easy)](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+- [x] [LeetCode: 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] [SpOJ: EKO.Eko](https://www.spoj.com/problems/EKO/)
 - [ ] [SpOJ: AGGRCOW - Aggressive cows](https://www.spoj.com/problems/AGGRCOW/)
 - [ ] [SpOJ: PIE.Pie](https://www.spoj.com/problems/PIE/)
