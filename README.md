@@ -41,6 +41,7 @@ Data Structure and Algorithms Implementation with different languages
   - [x] First Last Occurrence
   - [x] Rotated Array
   - [x] Max in a Hill
+  - [x] Square Root
 - Number theory:
   - Modular arithmetic
   - Sieve of Eratosthenes
