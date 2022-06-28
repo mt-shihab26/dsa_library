@@ -24,6 +24,13 @@ Data Structure and Algorithms Implementation with different languages
 
 - [x] Complexity
 - [x] Recursion
+- [x] STL
+  - [x] auto, pair, tuple,
+  - [x] vector, list, iterator
+  - [x] map, unordered_map
+  - [x] string, stringstream
+  - [x] set, unordered_set, multiset
+  - [x] stack, queue, deque, priority_queue
 - [x] Sorting:
   - [x] Selection Sort
   - [x] Bubble Sort
