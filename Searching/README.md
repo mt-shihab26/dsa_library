@@ -26,7 +26,9 @@
 - [x] Binary Search Learning Series (AlgoBot) : https://youtube.com/playlist?list=PLknt5L1fvp7WDuYtL-1sRa910QL_6AQC8
 - Synapse Beginner Class-10-Searching: https://youtu.be/1m2Ab_cB68o
 - Synapse Beginner Class 11 - Binary Search Problem Disscussion (06 October, 2021): https://youtu.be/4JVO_U34UxM
-- CodeForce edu Binary search theory: https://codeforces.com/edu/course/2/lesson/6
+- CodeForce Edu Binary Search theory: https://codeforces.com/edu/course/2/lesson/6
+- Binary Search Tutorial from Beginner to Advanced (Priyansh Agarwal): https://youtu.be/TiQ_W2qG3kU
+- CP Algorithms Ternary Search: https://cp-algorithms.com/num_methods/ternary_search.html
 
 ## Solve Problems
 
@@ -34,7 +36,7 @@
 - LeetCode List: https://leetcode.com/tag/binary-search
 - B-S2-(M10+M11): Synapse Beginner Long 9 [Searching]: https://vjudge.net/contest/460870
 - LightOJ: Binary Search/Bisection: https://lightoj.com/problems/category/binary-search
-- [x] CodeForce: edu Binary search step 1 practice: https://codeforces.com/edu/course/2/lesson/6/1/practice
+- [x] [CodeForce: Edu Binary Search step 1 practice (4/4)](https://codeforces.com/edu/course/2/lesson/6/1/practice)
 - [x] [UVa: 10611 - The Playboy Chimp (Easy)](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1552)
 - [x] [LeetCode: 1351. Count Negative Numbers in a Sorted Matrix (Easy)](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
 - [x] [LeetCode: 278. First Bad Version (Easy)](https://leetcode.com/problems/first-bad-version/)
