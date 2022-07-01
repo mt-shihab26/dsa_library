@@ -1,43 +1,53 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-void print(vector<pair<int, int>> &a) {
+void print(vector<pair<int, int>> &a)
+{
     for (auto &ith : a)
         cout << ith.first << " " << ith.second << "\n";
     cout << '\n';
 }
 
-
-bool cmp(pair<int, int> a, pair<int, int> b) {
-    if (a.first == b.first) {
-        if (a.second < b.second) {
+bool cmp(pair<int, int> a, pair<int, int> b)
+{
+    if (a.first == b.first)
+    {
+        if (a.second < b.second)
+        {
             return false;
-        } else {
+        }
+        else
+        {
             return true;
         }
     }
 
-    if (a.first > b.first) {
+    if (a.first > b.first)
+    {
         return false;
-    } else {
+    }
+    else
+    {
         return true;
     }
 }
 
-
-bool cmp2(pair<int, int> a, pair<int, int> b) {
-    if (a.first == b.first) {
+bool cmp2(pair<int, int> a, pair<int, int> b)
+{
+    if (a.first == b.first)
+    {
         return a.second < b.second;
     }
     return a.first > b.first;
 }
 
-
-int main() {
-    int n; cin >> n;
+int main()
+{
+    int n;
+    cin >> n;
     vector<pair<int, int>> a(n);
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         cin >> a[i].first >> a[i].second;
     }
 

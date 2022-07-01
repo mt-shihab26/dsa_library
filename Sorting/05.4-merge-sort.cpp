@@ -28,28 +28,27 @@ void print(const Tp &vc)
 // slower performance due to memory mang
 // fixed expected performance
 // stable
-
-void marge_sort(vector<int> &arr, int s, int e)
+void marge_sort(vector<int> &arr, int start, int end)
 {
-    if (s == e)
+    if (start == end)
         return;
 
-    int mid = s + (e - s) / 2;
+    int mid = start + (end - start) / 2;
 
-    marge_sort(arr, s, mid);
-    marge_sort(arr, mid + 1, e);
+    marge_sort(arr, start, mid);
+    marge_sort(arr, mid + 1, end);
 
     // s to mid, mid+1 to e
-    int len = e - s + 1;
+    int len = end - start + 1;
     int merged[len];
 
-    int first_half = s, second_half = mid + 1;
+    int first_half = start, second_half = mid + 1;
 
     for (int i = 0; i < len; i++)
     {
         if (first_half > mid)
             merged[i] = arr[second_half++];
-        else if (second_half > e)
+        else if (second_half > end)
             merged[i] = arr[first_half++];
         else if (arr[first_half] < arr[second_half])
             merged[i] = arr[first_half++];
@@ -57,7 +56,7 @@ void marge_sort(vector<int> &arr, int s, int e)
             merged[i] = arr[second_half++];
     }
 
-    for (int i = 0, j = s; i < len; i++, j++)
+    for (int i = 0, j = start; i < len; i++, j++)
         arr[j] = merged[i];
 }
 

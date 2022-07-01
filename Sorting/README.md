@@ -4,13 +4,15 @@ Put Everything in Order
 
 ## Topics
 
-- [x] Selection Sort
-- [x] Bubble Sort
-- [x] Insertion Sort
-- [x] Counting Sort
-- [x] Merge Sort
-- [x] Compare-Sorting
-- Quick Sort
+1. [x] Selection Sort
+2. [x] Bubble Sort
+3. [x] Insertion Sort
+4. [x] Counting Sort
+5. [x] Merge Sort
+6. [x] Lexicographical Sorting
+7. [x] std::sort()
+8. [x] Comparator Function
+9. Quick Sort
 
 ## Resources
 
@@ -23,9 +25,7 @@ Put Everything in Order
 - [x] [Insertion Sort - Bangla Video (Tamim Shahriar)](https://youtu.be/aBi8ptRBWY8)
 - [x] [Insertion Sort (CS50)](https://youtu.be/O0VbBkUvriI)
 - [x] [Insertion Sort Algorithm (programiz.com)](https://www.programiz.com/dsa/insertion-sort)
-- [ ] [7. Counting Sort, Radix Sort, Lower Bounds for Sorting (MIT OpenCourseWare)](https://youtu.be/Nz1KZXbghj8?t=2210)
 - [x] [Counting Sort Algorithm (programiz.com)](https://www.programiz.com/dsa/counting-sort)
-- [ ] [Counting Sort Algorithm (interviewcake.com)](https://www.interviewcake.com/concept/cpp/counting-sort)
 - [x] [Merge Sort & Selection Sort Tutorial for Beginners (Luv)](https://youtu.be/cWvruDR-hJA)
 - [x] [মার্জ সর্ট - ১ (Merge Sort - 1) - অ্যালগরিদম (Tamim Shahriar)](https://youtu.be/mWuk56Aa6xw)
 - [x] [মার্জ সর্ট - ২ (Merge Sort - 2) - সি দিয়ে ইমপ্লিমেন্টেশন (Tamim Shahriar)](https://youtu.be/-UzllqjFHW8)
@@ -34,7 +34,15 @@ Put Everything in Order
 - [x] কম্পিউটার প্রোগ্রামিং ৩য় খণ্ড (তামিম শাহরিয়ার সুবিন): Merge Sort
 - [x] [Merge Sort Algorithm (programiz.com)](https://www.programiz.com/dsa/merge-sort)
 - [x] [Merge Sort (geeksforgeeks.org)](https://www.geeksforgeeks.org/merge-sort)
+- [x] [কুইক সর্ট ১ - অ্যালগরিদম (Quick Sort Algorithm) (Tamim Shahriar)](https://youtu.be/PmlfVdY_XjI)
+- [x] [কুইক সর্ট ২ - পার্টিশন (Quick Sort Partition) (Tamim Shahriar)](https://youtu.be/MbO_N_7xSD0)
+- [x] [কুইক সর্ট ৩ - কমপ্লেক্সিটি (Quick Sort Complexity) (Tamim Shahriar)](https://youtu.be/MbO_N_7xSD0)
+- [7. Counting Sort, Radix Sort, Lower Bounds for Sorting (MIT OpenCourseWare)](https://youtu.be/Nz1KZXbghj8?t=2210)
+- [Counting Sort Algorithm (interviewcake.com)](https://www.interviewcake.com/concept/cpp/counting-sort)
 - [Merge sort (wikipedia.org)](https://en.wikipedia.org/wiki/Merge_sort)
+- https://www.programiz.com/dsa/quick-sort
+- https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm
+- https://www.geeksforgeeks.org/quick-sort/
 
 ## Solve Problems
 
@@ -50,3 +58,6 @@ Put Everything in Order
 - [x] [GeeksForGeeks: Counting Sort (Easy)](https://practice.geeksforgeeks.org/problems/1)
 - [x] [LeetCode: 88. Merge Sorted Array (Easy)](https://leetcode.com/problems/merge-sorted-array)
 - [x] [LeetCode: 912. Sort an Array (Medium)](https://leetcode.com/problems/sort-an-array/)
+- [x] [HackerRank: Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1/problem)
+- [x] [HackerRank: Quicksort In-Place](https://www.hackerrank.com/challenges/quicksort3/problem)
+- [HackerRank: Quicksort 2 - Sorting](https://www.hackerrank.com/challenges/quicksort2/problem)

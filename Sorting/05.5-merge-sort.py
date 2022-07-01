@@ -1,5 +1,5 @@
 def merge_sort(a: list, first: int, last: int) -> None:
-    "Sort Given a list of elements with O(n*log(n)) complexity"
+    "Sort Given a list of elements with O(n*log(n)) complexity with Merge Sort Algorithm"
 
     if last == first:
         return

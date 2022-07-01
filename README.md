@@ -32,13 +32,15 @@ Data Structure and Algorithms Implementation with different languages
   - [x] set, unordered_set, multiset
   - [x] stack, queue, deque, priority_queue
 - [x] Sorting:
-  - [x] Selection Sort
-  - [x] Bubble Sort
-  - [x] Insertion Sort
-  - [x] Merge Sort
-  - [x] Counting Sort
-  - [x] Compare Storting
-  - Quick Sort
+  1. [x] Selection Sort
+  2. [x] Bubble Sort
+  3. [x] Insertion Sort
+  4. [x] Counting Sort
+  5. [x] Merge Sort
+  6. [x] Lexicographical Sorting
+  7. [x] std::sort()
+  8. [x] Comparator Function
+  9. Quick Sort
 - [x] Searching:
   - [x] Linear Search
   - [x] Binary Search
