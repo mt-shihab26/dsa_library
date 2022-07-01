@@ -6,19 +6,46 @@ Data Structure and Algorithms Implementation with different languages
 
 ## Notes
 
-- Data Types
-  - `int` `-10^9 -> 10^9`
-  - `long long int` `-10^18 -> 10^18`
-- OJ Time Limits
-  - Number of iterations in 1 second is : `10^7 to 10^8`
-  - if, `10^7 -> 1 second`
-  - `10^8 -> 10 seconds`
-  - `10^9 -> 100 seconds`
-  - `10^10 -> 1000 seconds`
-  - `10^11 -> 10000 seconds`
-- Array Size
+- Language
+  - `int` capacity: `-2 * 10^9` to `2 * 10^9`
+  - `long long int` capacity: `-9 * 10^18` to `9 * 10^18`
   - Global Array Size: `10^7`
   - Local Array Size: `10^5`
+  - `typeid` operator in c++
+- OJ Time Limits
+  - Number of iterations in 1 second is : `10^7 to 10^8`
+  - `10^8` operation -> `1second`
+  - `10^9 -> 10 seconds`
+  - `10^10` operation -> `10^10/10^8` or `100seconds`
+  - `10^11 -> 1000 seconds`
+- Number Theory
+  - `log(a^b) = b log(a)`
+  - `n << k` -> `n * 2^k`
+  - `n >> k` -> `n / 2^k`
+  - 2'complement of `~N` = `-((~(~N))+1)` = `-(N+1)`
+  - positive integers: `>= 1` and non-negative integers: `>=0`
+  - `log6(x) = log_e(x) / log_e(6)`
+  - xor Trick
+    ```c++
+    x ^ 0 == x
+    x ^ y == 0 // x == y
+    x ^ y == y ^ x
+    a ^ b == c ^ d;
+    a ^ b ^ b == c ^ d ^ b;
+    a = c ^ d ^ b;
+    ```
+    ```c++
+       a ^ b ^ c ^ a ^ b     # Commutativity
+     = a ^ a ^ b ^ b ^ c     # Using x ^ x = 0
+     = 0 ^ 0 ^ c             # Using x ^ 0 = x (and commutativity)
+     = c
+    ```
+    ```c++
+    // swap two number
+    x = x ^ y; // =>                      (x ^ y, y)
+    y = x ^ y; // => (x ^ y, x ^ y ^ y) = (x ^ y, x)
+    x = x ^ y; // => (x ^ y ^ x, x)     = (y, x)
+    ```
 
 ## Path
 
