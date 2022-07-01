@@ -28,44 +28,16 @@ void print(const Tp &vc)
 // slower performance due to memory mang
 // fixed expected performance
 // stable
-void marge_sort(vector<int> &nums, int start, int end)
-{
-    if (start == end)
-        return;
-    int mid = start + ((end - start) / 2);
 
-    marge_sort(nums, start, mid);
-    marge_sort(nums, mid + 1, end);
-
-    // start to mid, mid+1 to end
-    int len = end - start + 1, merged[len];
-    int first_half = start, second_half = mid + 1;
-
-    for (int i = 0; i < len; i++)
-    {
-        if (first_half > mid)
-            merged[i] = nums[second_half++];
-        else if (second_half > end)
-            merged[i] = nums[first_half++];
-        else if (nums[first_half] < nums[second_half])
-            merged[i] = nums[first_half++];
-        else
-            merged[i] = nums[second_half++];
-    }
-
-    for (int i = 0, j = start; i < len; i++, j++)
-        nums[j] = merged[i];
-}
-
-void __marge_sort__(vector<int> &a, int s, int e)
+void marge_sort(vector<int> &arr, int s, int e)
 {
     if (s == e)
         return;
 
-    int mid = s + ((e - s) / 2);
+    int mid = s + (e - s) / 2;
 
-    __marge_sort__(a, s, mid);
-    __marge_sort__(a, mid + 1, e);
+    marge_sort(arr, s, mid);
+    marge_sort(arr, mid + 1, e);
 
     // s to mid, mid+1 to e
     int len = e - s + 1;
@@ -76,19 +48,17 @@ void __marge_sort__(vector<int> &a, int s, int e)
     for (int i = 0; i < len; i++)
     {
         if (first_half > mid)
-            merged[i] = a[second_half++];
+            merged[i] = arr[second_half++];
         else if (second_half > e)
-            merged[i] = a[first_half++];
-        else if (a[first_half] < a[second_half])
-            merged[i] = a[first_half++];
+            merged[i] = arr[first_half++];
+        else if (arr[first_half] < arr[second_half])
+            merged[i] = arr[first_half++];
         else
-            merged[i] = a[second_half++];
+            merged[i] = arr[second_half++];
     }
 
-    for (int i = 0, j = s; i < len; i++)
-    {
-        a[j++] = merged[i];
-    }
+    for (int i = 0, j = s; i < len; i++, j++)
+        arr[j] = merged[i];
 }
 
 int main(void)
