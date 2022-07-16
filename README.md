@@ -51,18 +51,31 @@ Data Structure and Algorithms Implementation with different languages
 
 ## Complexity
 
+- [x] Time complexity
+- [x] Space complexity
+- [x] O(1)
+- [x] O(n)
+- [x] O(n^2)
+- [x] O(n^3)
+- [x] O(sqrt(n))
+- [x] O(log(n))
+- [x] Logarithm
+
 ## Recursion
 
 ## STL
 
-- [x] auto, pair, tuple,
-- [x] vector, list, iterator
-- [x] map, unordered_map
+- [x] pair,
+- [x] vector
+- [x] iterator
 - [x] string, stringstream
+- [x] map, unordered_map
 - [x] set, unordered_set, multiset
-- [x] stack, queue, deque, priority_queue
+- [x] bitset
+- [x] stack,
+- [x] queue, deque, priority_queue
 
-## Sorting:
+## Sorting
 
 - [x] Selection Sort
 - [x] Bubble Sort
@@ -86,13 +99,13 @@ Data Structure and Algorithms Implementation with different languages
 - [x] Max in a Hill
 - [x] Square Root
 
-## Number theory:
+## Number theory
 
 - [x] Base Conversion
 - [x] Bitwise Operators
-- [x] k-th bit is on/off and set/unset
+- [x] k-th bit on/off and set/unset
 
-## Data Structure:
+## Data Structure
 
 - Stack
 - Queue, Circular Queue

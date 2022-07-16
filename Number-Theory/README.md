@@ -11,9 +11,9 @@
 - Modular Arithmetic
   - [x] Addition, Subtraction and Multiplication modulo formula
   - [x] BigMod
-  - Inserve Module
-  - Multiplicative Inserse
-  - Extened Euclid
+  - Innerve Module
+  - Multiplicative Inverse
+  - Extend Euclid
 - Binary Numbers
   - [x] Base Conversion
   - [x] Arithmetic Operation in Any Base
