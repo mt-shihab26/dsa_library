@@ -2,11 +2,8 @@
 using namespace std;
 #define endn '\n';
 
-int main() {
-    // min
-    cout << min(10, 100) << endn;
-    cout << min(5.2, 5.1) << endn;
-
+int main()
+{
     // min_elements
     vector<int> v = {2, 3, 1, 6, 7, 6};
 
@@ -23,10 +20,6 @@ int main() {
 
     min = *min_element(ara + 3, ara + 6);
     cout << min << endn;
-
-    // max
-    cout << max(10, 100) << endn;
-    cout << max(5.2, 5.1) << endn;
 
     // max_elements
     vector<int> v = {2, 3, 1, 6, 7, 6};

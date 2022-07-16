@@ -63,16 +63,18 @@ Data Structure and Algorithms Implementation with different languages
 
 ## Recursion
 
-## STL
+## Cpp STL
 
-- [x] pair,
+- [x] pair
 - [x] vector
 - [x] iterator
 - [x] string, stringstream
 - [x] map, unordered_map
 - [x] set, unordered_set, multiset
 - [x] bitset
-- [x] stack,
+- [x] math.h
+- [x] algorithms
+- [x] stack
 - [x] queue, deque, priority_queue
 
 ## Sorting
