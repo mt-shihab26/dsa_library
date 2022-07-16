@@ -47,72 +47,91 @@ Data Structure and Algorithms Implementation with different languages
     x = x ^ y; // => (x ^ y ^ x, x)     = (y, x)
     ```
 
-## Path
+# Path
 
-- [x] Complexity
-- [x] Recursion
-- [x] STL
-  - [x] auto, pair, tuple,
-  - [x] vector, list, iterator
-  - [x] map, unordered_map
-  - [x] string, stringstream
-  - [x] set, unordered_set, multiset
-  - [x] stack, queue, deque, priority_queue
-- [x] Sorting:
-  1. [x] Selection Sort
-  2. [x] Bubble Sort
-  3. [x] Insertion Sort
-  4. [x] Counting Sort
-  5. [x] Merge Sort
-  6. [x] Lexicographical Sorting
-  7. [x] std::sort()
-  8. [x] Comparator Function
-  9. Quick Sort
-- [x] Searching:
-  - [x] Linear Search
-  - [x] Binary Search
-  - [x] Lower Bound
-  - [x] Upper Bound
-  - [x] Peak Element
-  - [x] First Last Occurrence
-  - [x] Rotated Array
-  - [x] Max in a Hill
-  - [x] Square Root
-- Number theory:
-  - Modular arithmetic
-  - Sieve of Eratosthenes
-  - Beatwise Sieve
-  - Derangement
-- Data Structure:
-  - Stack
-  - Queue, Circular Queue
-  - Linked List
-  - Disjoint sets
-- Greedy:
-- Dynamic programming:
-  - Fibonacci, Shortest path, LIS and Path Printing,
-  - Longest common subsequence, Coin Change / 0-1 Napsack
-  - Subset Sam, Combinatorics, Decision Problem
-  - Matrix Chain Multiplication
-- Trees:
-  - Segment Tree 1
-  - Segment Tree 2
-  - Binary Indexed Tree
-- Graph theory:
-  - Basic of Graph
-  - Adjacency matrix
-  - Adjacency list
-  - Breadth-first search
-  - Depth First Search
-  - Topological Sort
-  - Dijkstra
-  - Bellman–Ford
-  - Floyd Warshall
-  - Minimum Spanning Tree 1, 2
-  - Maximum flow 1, 2
-  - Longest path problem
-  - Strongly connected component
-- String:
-  - Rabin-karp string matching
-  - Knuth–Morris–Pratt (KMP)
+## Complexity
+
+## Recursion
+
+## STL
+
+- [x] auto, pair, tuple,
+- [x] vector, list, iterator
+- [x] map, unordered_map
+- [x] string, stringstream
+- [x] set, unordered_set, multiset
+- [x] stack, queue, deque, priority_queue
+
+## Sorting:
+
+- [x] Selection Sort
+- [x] Bubble Sort
+- [x] Insertion Sort
+- [x] Counting Sort
+- [x] Merge Sort
+- [x] Lexicographical Sorting
+- [x] std::sort()
+- [x] Comparator Function
+- Quick Sort
+
+## Searching:
+
+- [x] Linear Search
+- [x] Binary Search
+- [x] Lower Bound
+- [x] Upper Bound
+- [x] Peak Element
+- [x] First Last Occurrence
+- [x] Rotated Array
+- [x] Max in a Hill
+- [x] Square Root
+
+## Number theory:
+
+- [x] Base Conversion
+- [x] Bitwise Operators
+- [x] k-th bit is on/off and set/unset
+
+## Data Structure:
+
+- Stack
+- Queue, Circular Queue
+- Linked List
+- Disjoint sets
+
+## Greedy:
+
+## Dynamic programming:
+
+- Fibonacci, Shortest path, LIS and Path Printing,
+- Longest common subsequence, Coin Change / 0-1 Napsack
+- Subset Sam, Combinatorics, Decision Problem
+- Matrix Chain Multiplication
+
+## Trees:
+
+- Segment Tree 1
+- Segment Tree 2
+- Binary Indexed Tree
+
+## Graph theory:
+
+- Basic of Graph
+- Adjacency matrix
+- Adjacency list
+- Breadth-first search
+- Depth First Search
+- Topological Sort
+- Dijkstra
+- Bellman–Ford
+- Floyd Warshall
+- Minimum Spanning Tree 1, 2
+- Maximum flow 1, 2
+- Longest path problem
+- Strongly connected component
+
+## String:
+
+- Rabin-karp string matching
+- Knuth–Morris–Pratt (KMP)
 - Meet in the middle Technique
