@@ -63,6 +63,16 @@ Data Structure and Algorithms Implementation with different languages
 
 ## Recursion
 
+- [x] print 1 to n
+- [x] print n to 1
+- [x] sum of array
+- [x] sum of n number
+- [x] digit sum
+- [x] fibonacci
+- [x] gcd with recursion
+- [x] calculate x of the power y
+- [x] reverse string
+
 ## Cpp STL
 
 - [x] pair

@@ -1,18 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void reverse(string &st, int n) {
-    if (n == 0) {
+void reverse(string &st, int n)
+{
+    if (n == 0)
+    {
         return;
     }
 
-    cout << (st[n-1]);
+    cout << (st[n - 1]);
 
-    reverse(st, n-1);
+    reverse(st, n - 1);
 }
 
-
-int main() {
+int main()
+{
     string st;
     cin >> st;
 

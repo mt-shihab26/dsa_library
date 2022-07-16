@@ -2,6 +2,18 @@
 
 Like Father, Like Son
 
+## Topics
+
+- [x] print 1 to n
+- [x] print n to 1
+- [x] sum of array
+- [x] sum of n number
+- [x] digit sum
+- [x] fibonacci
+- [x] gcd with recursion
+- [x] calculate x of the power y
+- [x] reverse string
+
 ## Notes
 
 - Properties: A recursive function can go infinite like a loop. To avoid infinite running of recursive function, there are two properties that a recursive function must have −
@@ -20,7 +32,7 @@ Like Father, Like Son
 
 ## Solve Problems
 
-- [20 Recursion Practice Problems (zobayer.blogspot.com)](https://zobayer.blogspot.com/2009/12/cse-102-practice-recursions.html) [Done:`17/20`](20-Recursion-Practice-Problems)
+- [20 Recursion Practice Problems (zobayer.blogspot.com) 18/20](https://zobayer.blogspot.com/2009/12/cse-102-practice-recursions.html) [Done:`17/20`](20-Recursion-Practice-Problems)
 - [x] [GeeksForGeeks: Print first n Fibonacci Numbers (Basic)](https://practice.geeksforgeeks.org/problems/print-first-n-fibonacci-numbers1002/1)
 - [x] [HackerRank: Recursive Digit Sum (Medium)](https://www.hackerrank.com/challenges/recursive-digit-sum/problem)
 - [x] [TimusOJ: 1149. Sinus Dances](https://acm.timus.ru/problem.aspx?space=1&num=1149)

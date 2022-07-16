@@ -1,17 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int gcd(int a, int b) {
+int gcd(int a, int b)
+{
     int rem;
-    while (true) {
+    while (true)
+    {
         rem = a % b;
-        if (rem == 0) 
+        if (rem == 0)
             return b;
         a = b;
         b = rem;
     }
 }
 
-int main() {
+int main()
+{
     cout << gcd(18, 4) << "\n";
 }
