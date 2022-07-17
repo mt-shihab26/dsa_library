@@ -113,9 +113,13 @@ Data Structure and Algorithms Implementation with different languages
 
 ## Number theory
 
-- [x] Base Conversion
-- [x] Bitwise Operators
+- [x] base conversion
+- [x] bitwise operators
 - [x] k-th bit on/off and set/unset
+- [x] bit masking
+- [x] xor trick
+- [x] builtin functions
+- [x] check is n power of 2
 
 ## Data Structure
 

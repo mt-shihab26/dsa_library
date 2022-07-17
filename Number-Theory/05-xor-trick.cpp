@@ -12,7 +12,7 @@ using namespace std;
     x ^ x ---> 0;
 
     101 ^ 000 ---> 101
-    x ^ 0 ---> 0;
+    x ^ 0 ---> x;
 
     x ^ y ^ z == y ^ z ^ x == z ^ y ^ x
 */

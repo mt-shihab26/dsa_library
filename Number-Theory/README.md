@@ -2,7 +2,15 @@
 
 ## Topics
 
-- Number Theory
+- [x] base conversion
+- [x] bitwise operators
+- [x] k-th bit on/off and set/unset
+- [x] bit masking
+- [x] xor trick
+- [x] builtin functions
+- [x] check is n power of 2
+
+<!-- - Number Theory
   - [x] Divisors
   - [x] Primality test
   - [x] Prime Factors
@@ -14,84 +22,7 @@
   - Innerve Module
   - Multiplicative Inverse
   - Extend Euclid
-- Binary Numbers
-  - [x] Base Conversion
-  - [x] Arithmetic Operation in Any Base
-  - [x] Signed vs Unsigned binary numbers
-  - [x] Set, Unset, Toggle a Bit and Bit Count
-  - [x] Bit Manipulation Ticks
-  - [x] XOR Operation
-
-## Notes
-
-- Bitwise Operators
-  ```
-  &   -> bitwise and
-  |   -> bitwise or
-  ^   -> bitwise xor
-  ~   -> bitwise not
-  >>  -> bitwise right shift
-  <<  -> bitwise left shift
-  ```
-- Modular Arithmetic
-  ```
-  (a + b) % m = ((a % m) + (b % m)) % m
-  ```
-  ```
-  (a - b) % m = ((a % m) - (b % m) + m) % m
-  ```
-  ```
-  (a * b) % m = ((a % m) * (b % m)) % m
-  ```
-  ```
-  (a / b) % m = ((a % m) * ((b^-1) % m)) % m
-  b^-1 -> Multiplicative Inserse
-  ```
-  - Inserve Module
-  ```
-  (a / b) % m =
-          if m is prime:
-              ((a % m) * bigmod(b, m - 2, m)) % m
-          else:
-              Extened Euclid's Algorithm
-  ```
-- Binary Numbers
-  ```
-  Oth Bit -> Least Singnificant Bit (LSB)
-  Nth bit(in N Bit no.) -> Most Singnificant Bit (MSB)
-  ```
-  ```
-  Set -> 1
-  Unset -> 0
-  ```
-  ```
-  (1000)2 - (1)10 = (111)2
-  ```
-  ```c++
-  __builtin_popcount()
-  __builtin_popcountll()
-  ```
-  ```c++
-  // XOR Operation
-  1 0 ---> 1
-  0 1 ---> 1
-  1 1 ---> 0
-  0 0 ---> 0
-
-  101 ^ 101 ---> 000
-  x ^ x ---> 0;
-
-  101 ^ 000 ---> 101
-  x ^ 0 ---> 0;
-
-  x ^ y ^ z == y ^ z ^ x == z ^ y ^ x;
-  ```
-  ```
-      c ^ a ^ b ^ c ^ b
-  --> a ^ b ^ b ^ c ^ c
-  --> a ^ 0 ^ 0
-  --> a
-  ```
+    -->
 
 ## Solve Problems
 
@@ -148,7 +79,7 @@
 - [Number Theory and Inclusion-Exclusion Part 2 (Tanmoy Datta)](https://youtu.be/DTXvtKf3X_E)
 - [Maths for DSA/CP : All You Need To Know (Utkarsh Gupta)](https://youtu.be/tDM6lT-qjys?t=110)
 
-## Reading Resouces
+## Reading Resources
 
 - [x] [Find all divisors of a natural number in O(sqrt(n)) (geeksforgeeks.org)](https://www.geeksforgeeks.org/find-all-divisors-of-a-natural-number-set-2/)
 - [x] [Primality Test in O(sqrt(n))](https://www.learndsa.com/2020/07/introduction-to-prime-numbers-and-primality-test-in-sqrt-n-time-complexity.html)
