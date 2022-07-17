@@ -2,18 +2,6 @@
 
 Put Everything in Order
 
-## Topics
-
-1. [x] Selection Sort
-2. [x] Bubble Sort
-3. [x] Insertion Sort
-4. [x] Counting Sort
-5. [x] Merge Sort
-6. [x] Lexicographical Sorting
-7. [x] std::sort()
-8. [x] Comparator Function
-9. Quick Sort
-
 ## Resources
 
 - [x] [সিলেকশন সর্ট - Selection Sort (Tamim Shahriar)](https://youtu.be/qHmByz1YvQs)

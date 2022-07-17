@@ -45,7 +45,7 @@ void merge_sort(int l, int r)
 int main()
 {
     int n = 4;
-    int b[n] = {3, 1, 4, 2};
+    int b[] = {3, 1, 4, 2};
     for (int i = 0; i < n; i++)
     {
         a[i] = b[i];

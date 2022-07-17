@@ -79,27 +79,27 @@ Data Structure and Algorithms Implementation with different languages
 
 ## Sorting
 
-- [x] Selection Sort
-- [x] Bubble Sort
-- [x] Insertion Sort
-- [x] Counting Sort
-- [x] Merge Sort
-- [x] Lexicographical Sorting
+- [x] selection sort
+- [x] bubble sort
+- [x] insertion sort
+- [x] counting sort
+- [x] merge sort
+- [x] lexicographical sorting
 - [x] std::sort()
-- [x] Comparator Function
-- Quick Sort
+- [x] comparator function
+- quick sort
 
-## Searching:
+## Searching
 
-- [x] Linear Search
-- [x] Binary Search
-- [x] Lower Bound
-- [x] Upper Bound
-- [x] Peak Element
-- [x] First Last Occurrence
-- [x] Rotated Array
-- [x] Max in a Hill
-- [x] Square Root
+- [x] linear search
+- [x] binary search
+- [x] lower bound
+- [x] upper bound
+- [x] peak element
+- [x] first last occurrence
+- [x] rotated array
+- [x] max in a hill
+- [x] square root
 
 ## Number theory
 
