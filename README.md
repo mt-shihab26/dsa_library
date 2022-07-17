@@ -19,12 +19,23 @@ Data Structure and Algorithms Implementation with different languages
   - `10^10` operation -> `10^10/10^8` or `100seconds`
   - `10^11 -> 1000 seconds`
 - Number Theory
-  - `log(a^b) = b log(a)`
-  - `n << k` -> `n * 2^k`
-  - `n >> k` -> `n / 2^k`
-  - 2'complement of `~N` = `-((~(~N))+1)` = `-(N+1)`
-  - positive integers: `>= 1` and non-negative integers: `>=0`
-  - `log6(x) = log_e(x) / log_e(6)`
+  - Bits
+    - `log(a^b) = b log(a)`
+    - `n << k` -> `n * 2^k`
+    - `n >> k` -> `n / 2^k`
+    - 2'complement of `~N` = `-((~(~N))+1)` = `-(N+1)`
+    - positive integers: `>= 1` and non-negative integers: `>=0`
+    - `log6(x) = log_e(x) / log_e(6)`
+    - builtin functions
+      - `__builtin_popcount(x)`
+      - `__builtin_clz(x)`
+      - `__builtin_ctz(x)`
+    - xor Trick
+      - `n ^ (n + 1) == 1 // if n is even`
+      - `x ^ 0 == x`
+      - `x ^ y == 0 // x == y`
+      - `x ^ x ^ x = x // len even`
+      - `x ^ x ^ x ^ x = 0 // len odd`
 
 # Path
 
@@ -92,13 +103,15 @@ Data Structure and Algorithms Implementation with different languages
 
 ## Number theory
 
-- [x] base conversion
-- [x] bitwise operators
-- [x] k-th bit on/off and set/unset
-- [x] bit masking
-- [x] xor trick
-- [x] builtin functions
-- [x] check is n power of 2
+- primes
+- bits
+  - [x] base conversion
+  - [x] bitwise operators
+  - [x] k-th bit on/off and set/unset
+  - [x] bit masking
+  - [x] builtin functions
+  - [x] xor trick
+- mods
 
 ## Data Structure
 

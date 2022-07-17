@@ -1,15 +1,5 @@
 # Number Theory
 
-## Topics
-
-- [x] base conversion
-- [x] bitwise operators
-- [x] k-th bit on/off and set/unset
-- [x] bit masking
-- [x] xor trick
-- [x] builtin functions
-- [x] check is n power of 2
-
 <!-- - Number Theory
   - [x] Divisors
   - [x] Primality test

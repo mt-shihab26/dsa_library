@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 #define endn '\n'
 
 /*
@@ -18,7 +19,8 @@ using namespace std;
 */
 
 // Swap two number with xor
-void swap_with_xor() {
+void swap_with_xor()
+{
     int a = 4, b = 6;
 
     a = a ^ b;
@@ -29,18 +31,19 @@ void swap_with_xor() {
     cout << a << " " << b << endn;
 }
 
-
-void a_problem_with_xor() {
+void a_problem_with_xor()
+{
     /*
     Given array a of n integers. all integers are
     present in even count except one.
     Find that one integer which has odd count
-    int O(n) time complexity and O(1) space; 
+    int O(n) time complexity and O(1) space;
     */
 
     vector<int> a = {2, 3, 5, 2, 3, 3, 3, 5, 8};
     int ans = 0;
-    for (int ith : a) {
+    for (int ith : a)
+    {
         ans ^= ith;
     }
     cout << ans << endn;
@@ -53,8 +56,8 @@ void a_problem_with_xor() {
     */
 }
 
-
-int main() {
+int main()
+{
     // swap_with_xor();
     a_problem_with_xor();
 }
