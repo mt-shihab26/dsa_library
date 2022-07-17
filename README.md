@@ -25,27 +25,6 @@ Data Structure and Algorithms Implementation with different languages
   - 2'complement of `~N` = `-((~(~N))+1)` = `-(N+1)`
   - positive integers: `>= 1` and non-negative integers: `>=0`
   - `log6(x) = log_e(x) / log_e(6)`
-  - xor Trick
-    ```c++
-    x ^ 0 == x
-    x ^ y == 0 // x == y
-    x ^ y == y ^ x
-    a ^ b == c ^ d;
-    a ^ b ^ b == c ^ d ^ b;
-    a = c ^ d ^ b;
-    ```
-    ```c++
-       a ^ b ^ c ^ a ^ b     # Commutativity
-     = a ^ a ^ b ^ b ^ c     # Using x ^ x = 0
-     = 0 ^ 0 ^ c             # Using x ^ 0 = x (and commutativity)
-     = c
-    ```
-    ```c++
-    // swap two number
-    x = x ^ y; // =>                      (x ^ y, y)
-    y = x ^ y; // => (x ^ y, x ^ y ^ y) = (x ^ y, x)
-    x = x ^ y; // => (x ^ y ^ x, x)     = (y, x)
-    ```
 
 # Path
 
