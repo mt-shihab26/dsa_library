@@ -23,5 +23,4 @@ int lcm(int a, int b)
 
 int32_t main()
 {
-    
 }

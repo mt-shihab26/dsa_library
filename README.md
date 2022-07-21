@@ -36,6 +36,8 @@ Data Structure and Algorithms Implementation with different languages
       - `x ^ y == 0 // x == y`
       - `x ^ x ^ x = x // len even`
       - `x ^ x ^ x ^ x = 0 // len odd`
+    - BIT LOW: Think about each bit separately. That's it. It will make your life real comfy.
+    - The complexity of bitwise operations in bitset of size is O(size/32) or O(size/64)
 
 # Path
 
@@ -103,14 +105,21 @@ Data Structure and Algorithms Implementation with different languages
 
 ## Number theory
 
-- primes
-- bits
+- [x] primes
+  - [x] divisors
+  - [x] gcd lcm
+  - [x] primality test
+  - [x] prime factors
+  - [x] sieve of eratosthenes
+  - [x] string multiplication
+- [x] bits
   - [x] base conversion
   - [x] bitwise operators
   - [x] k-th bit on/off and set/unset
   - [x] bit masking
   - [x] builtin functions
   - [x] xor trick
+  - [x] bitset
 - mods
 
 ## Data Structure

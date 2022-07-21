@@ -1,18 +1,20 @@
 # Number Theory
 
-<!-- - Number Theory
-  - [x] Divisors
-  - [x] Primality test
-  - [x] Prime Factors
-  - [x] Sieve-of-Eratosthenes
-  - [x] String-Multiplication
+<!--
 - Modular Arithmetic
   - [x] Addition, Subtraction and Multiplication modulo formula
   - [x] BigMod
   - Innerve Module
   - Multiplicative Inverse
   - Extend Euclid
-    -->
+-->
+
+## Basic Bits Problems
+
+- Sum of all pair AND/OR/XOR in an integer array aa of size 10^5.
+- Sum of all subset AND/OR/XOR in an integer array aa of size 10^5.
+- Count the number of pairs having XOR 00 in an integer array aa of size 10^5.
+- Count the number of subarrays having XOR 00 in an integer array aa of size 10^5.
 
 ## Solve Problems
 
@@ -52,6 +54,9 @@
 - [Number Theory Contest 01](https://vjudge.net/contest/381131)
 - [Number Theory Contest 02](https://vjudge.net/contest/381132)
 - [Number theory practice problems (CodeForces Blog)](https://codeforces.com/blog/entry/49494)
+- Xor Trick Problems: Codeforces: 1516B. AGAGA XOOORRR: https://codeforces.com/problemset/problem/1516/B
+- (&) and problems: 1601A. Array Elimination: https://codeforces.com/problemset/problem/1601/A
+- bitset problems: https://www.codechef.com/AABH2020/problems/ODTPIC/
 
 ## Watch Videos
 
@@ -109,3 +114,4 @@
 - https://www.shawonruet.com/2017/06/blog-post.html
 - https://www.shafaetsplanet.com/?p=936
 - https://codeforces.com/blog/entry/72527
+- [x] The XOR Trick: https://florian.github.io/xor-trick
