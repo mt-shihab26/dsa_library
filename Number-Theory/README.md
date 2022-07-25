@@ -9,12 +9,16 @@
   - Extend Euclid
 -->
 
-## Basic Bits Problems
+## Bits Solve Problems
 
 - Sum of all pair AND/OR/XOR in an integer array aa of size 10^5.
 - Sum of all subset AND/OR/XOR in an integer array aa of size 10^5.
 - Count the number of pairs having XOR 00 in an integer array aa of size 10^5.
 - Count the number of subarrays having XOR 00 in an integer array aa of size 10^5.
+- Topic Stream Mashup: Bitwise Operations: https://codeforces.com/gym/344975
+- [x] Xor Trick Problems: Codeforces: 1516B. AGAGA XOOORRR: https://codeforces.com/problemset/problem/1516/B
+- [x] (&) and problems: 1601A. Array Elimination: https://codeforces.com/problemset/problem/1601/A
+- bitset problems: https://www.codechef.com/AABH2020/problems/ODTPIC/
 
 ## Solve Problems
 
@@ -54,9 +58,6 @@
 - [Number Theory Contest 01](https://vjudge.net/contest/381131)
 - [Number Theory Contest 02](https://vjudge.net/contest/381132)
 - [Number theory practice problems (CodeForces Blog)](https://codeforces.com/blog/entry/49494)
-- Xor Trick Problems: Codeforces: 1516B. AGAGA XOOORRR: https://codeforces.com/problemset/problem/1516/B
-- (&) and problems: 1601A. Array Elimination: https://codeforces.com/problemset/problem/1601/A
-- bitset problems: https://www.codechef.com/AABH2020/problems/ODTPIC/
 
 ## Watch Videos
 
@@ -78,6 +79,7 @@
 
 - [x] [Find all divisors of a natural number in O(sqrt(n)) (geeksforgeeks.org)](https://www.geeksforgeeks.org/find-all-divisors-of-a-natural-number-set-2/)
 - [x] [Primality Test in O(sqrt(n))](https://www.learndsa.com/2020/07/introduction-to-prime-numbers-and-primality-test-in-sqrt-n-time-complexity.html)
+- [x] The XOR Trick: https://florian.github.io/xor-trick
 - [Program to find GCD or HCF of two numbers (geeksforgeeks.org)](https://www.geeksforgeeks.org/c-program-find-gcd-hcf-two-numbers/)
 - [Sieve of Eratosthenes (cp-algorithms.com)](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
 - [Number Theory Topic (Tanmoy Datta)](https://docs.google.com/document/d/1NsGMyQSxa9xU-MrLQRcU1NYEZLDNm3xEeirqq5b-Liw/edit?usp=sharing) Slides
@@ -114,4 +116,3 @@
 - https://www.shawonruet.com/2017/06/blog-post.html
 - https://www.shafaetsplanet.com/?p=936
 - https://codeforces.com/blog/entry/72527
-- [x] The XOR Trick: https://florian.github.io/xor-trick
