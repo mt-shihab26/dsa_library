@@ -59,27 +59,35 @@
 - [Number Theory Contest 02](https://vjudge.net/contest/381132)
 - [Number theory practice problems (CodeForces Blog)](https://codeforces.com/blog/entry/49494)
 
+## Watch Bits Videos
+
+- [x] [Binary Numbers and Bits Basics For Competitive Programming | EP 47 (Luv)](https://youtu.be/DYwhXwGj1L4)
+- [x] [6 Amazing BIT Manipulation Ticks You must Know | CP Course | EP 49 (Luv)](https://youtu.be/XjtYsFjXtoE)
+- [x] [সংখ্যা পদ্ধতি | তৃতীয় অধ্যায় (১ম খন্ড) | HSC ICT (wrong submission)](https://youtube.com/playlist?list=PL0G2Ga9ALv6lrpxwuG2KE73ohn4K8GatJ)
+- [x] [PLAYING WITH BITS | Set, Unset, Count Bits | CP Course | EP 48 (Luv)](https://youtu.be/yEa0vkjJSf0)
+- [x] [Power of XOR Operator | CP Course | EP 50 (Luv)](https://youtu.be/SFOlkUnjtA4)
+- Complete Bitwise Operations Practice - Noob to Expert | Topic Stream 8: https://youtu.be/UPVoGMZWQMU
+
+
 ## Watch Videos
 
 - [x] [Number Theory (Synapse)](https://youtu.be/kr0cL7nOauc)
 - [x] [Modular Arithmetic (Synapse)](https://youtu.be/RsWquJtpn0E)
 - [x] [Why Print answer modulo 10^9+7 | Modular Arithmetic | EP 11 (Luv)](https://youtu.be/RCq5TYMZEwg)
-- [x] [Binary Numbers and Bits Basics For Competitive Programming | EP 47 (Luv)](https://youtu.be/DYwhXwGj1L4)
-- [x] [সংখ্যা পদ্ধতি | তৃতীয় অধ্যায় (১ম খন্ড) | HSC ICT (wrong submission)](https://youtube.com/playlist?list=PL0G2Ga9ALv6lrpxwuG2KE73ohn4K8GatJ)
-- [x] [PLAYING WITH BITS | Set, Unset, Count Bits | CP Course | EP 48 (Luv)](https://youtu.be/yEa0vkjJSf0)
-- [x] [6 Amazing BIT Manipulation Ticks You must Know | CP Course | EP 49 (Luv)](https://youtu.be/XjtYsFjXtoE)
-- [x] [Power of XOR Operator | CP Course | EP 50 (Luv)](https://youtu.be/SFOlkUnjtA4)
 - [Number theory (Luv)](https://youtube.com/playlist?list=PLauivoElc3giVROwL-6g9hO-LlSen_NaV)
 - [Number Theory - Beginner (BACS-BUBT National Programming Camp, 2017)](https://youtu.be/gk2MUZc8jTM)
 - [Number Theory and Inclusion-Exclusion Part 1 (Tanmoy Datta)](https://youtu.be/tDzHLd3UCo0)
 - [Number Theory and Inclusion-Exclusion Part 2 (Tanmoy Datta)](https://youtu.be/DTXvtKf3X_E)
 - [Maths for DSA/CP : All You Need To Know (Utkarsh Gupta)](https://youtu.be/tDM6lT-qjys?t=110)
 
+## Reading Bits Resources
+
+- [x] The XOR Trick: https://florian.github.io/xor-trick
+
 ## Reading Resources
 
 - [x] [Find all divisors of a natural number in O(sqrt(n)) (geeksforgeeks.org)](https://www.geeksforgeeks.org/find-all-divisors-of-a-natural-number-set-2/)
 - [x] [Primality Test in O(sqrt(n))](https://www.learndsa.com/2020/07/introduction-to-prime-numbers-and-primality-test-in-sqrt-n-time-complexity.html)
-- [x] The XOR Trick: https://florian.github.io/xor-trick
 - [Program to find GCD or HCF of two numbers (geeksforgeeks.org)](https://www.geeksforgeeks.org/c-program-find-gcd-hcf-two-numbers/)
 - [Sieve of Eratosthenes (cp-algorithms.com)](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
 - [Number Theory Topic (Tanmoy Datta)](https://docs.google.com/document/d/1NsGMyQSxa9xU-MrLQRcU1NYEZLDNm3xEeirqq5b-Liw/edit?usp=sharing) Slides
