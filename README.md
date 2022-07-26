@@ -120,6 +120,7 @@ Data Structure and Algorithms Implementation with different languages
   - [x] builtin functions
   - [x] xor trick
   - [x] bitset
+  - [x] contribution technique
 - mods
 
 ## Data Structure
