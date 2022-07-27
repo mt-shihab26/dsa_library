@@ -1,14 +1,5 @@
 # Number Theory
 
-<!--
-- Modular Arithmetic
-  - x] Addition, Subtraction and Multiplication modulo formula
-  - [x] BigMod
-  - Innerve Module
-  - Multiplicative Inverse
-  - Extend Euclid
--->
-
 ## Bits
 
 ### Solve Bits Problems
@@ -54,6 +45,9 @@
 - মডুলার অ্যারিথমেটিক: https://www.shafaetsplanet.com/?p=936
 - Modular Arithmetic: https://usaco.guide/gold/modular?lang=cpp
 - Modular Arithmetic for Beginners: https://codeforces.com/blog/entry/72527
+- [x] Binary Exponentiation: Recursive Method | EP 54.1 (Luv): https://youtu.be/J63JPxqmyzg
+- [x] Binary Exponentiation: Iterative Method | EP 54.2 (Luv): https://youtu.be/K8mJ27S72v0
+- Binary Exponentiation: https://cp-algorithms.com/algebra/binary-exp.html
 
 ## Solve Problems
 
