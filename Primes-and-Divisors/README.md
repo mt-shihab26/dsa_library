@@ -1,55 +1,6 @@
-# Number Theory
+# Primes and Divisors
 
-## Bits
-
-### Solve Bits Problems
-
-- Sum of all pair AND/OR/XOR in an integer array aa of size 10^5.
-- Sum of all subset AND/OR/XOR in an integer array aa of size 10^5.
-- Count the number of pairs having XOR 00 in an integer array aa of size 10^5.
-- Count the number of subarrays having XOR 00 in an integer array aa of size 10^5.
-- Topic Stream Mashup: Bitwise Operations: https://codeforces.com/gym/344975
-- [x] Xor Trick Problems: Codeforces: 1516B. AGAGA XOOORRR: https://codeforces.com/problemset/problem/1516/B
-- [x] (&) and problems: 1601A. Array Elimination: https://codeforces.com/problemset/problem/1601/A
-- bitset problems: https://www.codechef.com/AABH2020/problems/ODTPIC/
-- YouKn0wWho Academy - Hitting the Bits (15/17): https://vjudge.net/contest/472687
-
-### Attend Bits Resources
-
-- [x] Binary Numbers and Bits Basics For Competitive Programming | EP 47 (Luv): https://youtu.be/DYwhXwGj1L4
-- [x] 6 Amazing BIT Manipulation Ticks You must Know | EP 49 (Luv): https://youtu.be/XjtYsFjXtoE
-- [x] সংখ্যা পদ্ধতি | তৃতীয় অধ্যায় (১ম খন্ড) | HSC ICT (wrong submission): https://youtube.com/playlist?list=PL0G2Ga9ALv6lrpxwuG2KE73ohn4K8GatJ
-- [x] PLAYING WITH BITS | Set, Unset, Count Bits | EP 48 (Luv): https://youtu.be/yEa0vkjJSf0
-- [x] Power of XOR Operator | EP 50 (Luv): https://youtu.be/SFOlkUnjtA4
-- Complete Bitwise Operations Practice - Noob to Expert | Topic Stream 8: https://youtu.be/UPVoGMZWQMU
-- [x] The XOR Trick: https://florian.github.io/xor-trick
-
-## Mods
-
-### Solve Mods Problems
-
-- Beginner Season 2 Long 11 - Modular Arithmetic (3/8): https://vjudge.net/contest/463807
-- [x] UVa: 374 - Big Mod: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=310
-- [x] UVa: 10127 - Ones: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1068
-- [x] CodeForces: 1178C. Tiles (\*1300): https://codeforces.com/contest/1178/problem/C)
-- CodeForces: 1281C.Cut and Paste: https://codeforces.com/problemset/problem/1281/C
-- CodeForces: 300C.Beautiful Numbers: https://codeforces.com/problemset/problem/300/C
-- CodeForces: 1248C.Ivan the Fool and the Probability Theory: https://codeforces.com/problemset/problem/1248/C
-- CodeForces: 935D.Fafa and Ancient Alphabet: https://codeforces.com/problemset/problem/935/D
-- CodeForces: 1279D.Santa's Bot: https://codeforces.com/problemset/problem/1279/D
-
-### Attend Mods Resources
-
-- [x] Modular Arithmetic (Synapse): https://youtu.be/RsWquJtpn0E
-- [x] Why Print answer modulo 10^9+7 | EP 11 (Luv): https://youtu.be/RCq5TYMZEwg
-- মডুলার অ্যারিথমেটিক: https://www.shafaetsplanet.com/?p=936
-- Modular Arithmetic: https://usaco.guide/gold/modular?lang=cpp
-- Modular Arithmetic for Beginners: https://codeforces.com/blog/entry/72527
-- [x] Binary Exponentiation: Recursive Method | EP 54.1 (Luv): https://youtu.be/J63JPxqmyzg
-- [x] Binary Exponentiation: Iterative Method | EP 54.2 (Luv): https://youtu.be/K8mJ27S72v0
-- Binary Exponentiation: https://cp-algorithms.com/algebra/binary-exp.html
-
-## Solve Problems
+## Problems
 
 - [x] TimusOJ: 1086. Cryptography (beginners): https://acm.timus.ru/problem.aspx?space=1&num=1086
 - [x] UVa: 294 - Divisors (Easy): https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=230
@@ -80,7 +31,7 @@
 - Number Theory Contest 02: https://vjudge.net/contest/381132
 - Number theory practice problems (CodeForces Blog): https://codeforces.com/blog/entry/49494
 
-## Watch Videos
+## Videos
 
 - [x] Number Theory (Synapse): https://youtu.be/kr0cL7nOauc
 - Number theory (Luv): https://youtube.com/playlist?list=PLauivoElc3giVROwL-6g9hO-LlSen_NaV
@@ -89,7 +40,7 @@
 - Number Theory and Inclusion-Exclusion Part 2 (Tanmoy Datta): https://youtu.be/DTXvtKf3X_E
 - Maths for DSA/CP : All You Need To Know (Utkarsh Gupta): https://youtu.be/tDM6lT-qjys?t=110
 
-## Reading Resources
+## Resources
 
 - [x] Find all divisors of a natural number in O(sqrt(n)) (geeksforgeeks.org): https://www.geeksforgeeks.org/find-all-divisors-of-a-natural-number-set-2/
 - [x] Primality Test in O(sqrt(n)): https://www.learndsa.com/2020/07/introduction-to-prime-numbers-and-primality-test-in-sqrt-n-time-complexity.html

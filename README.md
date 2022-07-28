@@ -103,25 +103,27 @@ Data Structure and Algorithms Implementation with different languages
 - [x] max in a hill
 - [x] square root
 
-## Number theory
+## Primes and Divisors
 
-- [x] primes
-  - [x] divisors
-  - [x] gcd lcm
-  - [x] primality test
-  - [x] prime factors
-  - [x] sieve of eratosthenes
-  - [x] string multiplication
-- [x] bits
-  - [x] base conversion
-  - [x] bitwise operators
-  - [x] k-th bit on/off and set/unset
-  - [x] bit masking
-  - [x] builtin functions
-  - [x] xor trick
-  - [x] bitset
-  - [x] contribution technique
-- mods
+- [x] divisors
+- [x] gcd lcm
+- [x] primality test
+- [x] prime factors
+- [x] sieve of eratosthenes
+- [x] string multiplication
+
+## Binary Numbers
+
+- [x] base conversion
+- [x] bitwise operators
+- [x] k-th bit on/off and set/unset
+- [x] bit masking
+- [x] builtin functions
+- [x] xor trick
+- [x] bitset
+- [x] contribution technique
+
+## Modular Arithmetic
 
 ## Data Structure
 
