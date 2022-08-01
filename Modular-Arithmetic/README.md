@@ -12,6 +12,10 @@
 - CodeForces: 1248C.Ivan the Fool and the Probability Theory: https://codeforces.com/problemset/problem/1248/C
 - CodeForces: 935D.Fafa and Ancient Alphabet: https://codeforces.com/problemset/problem/935/D
 - CodeForces: 1279D.Santa's Bot: https://codeforces.com/problemset/problem/1279/D
+- Print last k digits of a^b (a raised to power b): https://www.geeksforgeeks.org/print-last-k-digits-of-ab-a-raised-to-power-b/
+- Modulo Inverse: https://www.hackerearth.com/problem/algorithm/modulo-inverse-problem/
+- Mulmod: Find x \* y mod 10^18 where x <= 10^18 and y <= 10^18. Solve it in O(log(min(x, y)))
+- Intuitive Mod: https://www.geeksforgeeks.org/find-the-maximum-possible-value-of-ai-aj-over-all-pairs-of-i-and-j/
 
 ## Video Resources
 
@@ -30,3 +34,5 @@
 - Modular Arithmetic: https://usaco.guide/gold/modular?lang=cpp
 - Modular Arithmetic for Beginners: https://codeforces.com/blog/entry/72527
 - Binary Exponentiation: https://cp-algorithms.com/algebra/binary-exp.html
+- Modular Multiplicative Inverse: https://cp-algorithms.com/algebra/module-inverse.html
+- Proof of Fermat's Little Theorem: https://primes.utm.edu/notes/proofs/FermatsLittleTheorem.html

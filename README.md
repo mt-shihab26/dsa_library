@@ -18,26 +18,54 @@ Data Structure and Algorithms Implementation with different languages
   - `10^9 -> 10 seconds`
   - `10^10` operation -> `10^10/10^8` or `100seconds`
   - `10^11 -> 1000 seconds`
-- Number Theory
-  - Bits
-    - `log(a^b) = b log(a)`
-    - `n << k` -> `n * 2^k`
-    - `n >> k` -> `n / 2^k`
-    - 2'complement of `~N` = `-((~(~N))+1)` = `-(N+1)`
-    - positive integers: `>= 1` and non-negative integers: `>=0`
-    - `log6(x) = log_e(x) / log_e(6)`
-    - builtin functions
-      - `__builtin_popcount(x)`
-      - `__builtin_clz(x)`
-      - `__builtin_ctz(x)`
-    - xor Trick
-      - `n ^ (n + 1) == 1 // if n is even`
-      - `x ^ 0 == x`
-      - `x ^ y == 0 // x == y`
-      - `x ^ x ^ x = x // len even`
-      - `x ^ x ^ x ^ x = 0 // len odd`
-    - BIT LOW: Think about each bit separately. That's it. It will make your life real comfy.
-    - The complexity of bitwise operations in bitset of size is O(size/32) or O(size/64)
+- Primes and Divisors
+  - `log(a^b) = b log(a)`
+  - `n << k` -> `n * 2^k`
+  - `n >> k` -> `n / 2^k`
+  - 2'complement of `~N` = `-((~(~N))+1)` = `-(N+1)`
+  - positive integers: `>= 1` and non-negative integers: `>=0`
+  - `log6(x) = log_e(x) / log_e(6)`
+  - builtin functions
+    - `__builtin_popcount(x)`
+    - `__builtin_clz(x)`
+    - `__builtin_ctz(x)`
+  - xor Trick
+    - `n ^ (n + 1) == 1 // if n is even`
+    - `x ^ 0 == x`
+    - `x ^ y == 0 // x == y`
+    - `x ^ x ^ x = x // len even`
+    - `x ^ x ^ x ^ x = 0 // len odd`
+  - BIT LOW: Think about each bit separately. That's it. It will make your life real comfy.
+  - The complexity of bitwise operations in bitset of size is O(size/32) or O(size/64)
+- Modular Arithmetic
+  - Notation:
+    - expr1 ≡ expr2(mod m). This is read as "expr1 is congruent to expr2 modulo m", and is shorthand for expr1 mod m=expr2 mod m.
+  - Basic arithmetics:
+    - `-b % m` = `(m - b) % m`
+      - `-4 % 6` = `(6 - 4) % 6`
+      - `-49 % 6` = `((-47 % 6) + 6) % 6`
+      - finally `-b % m` = `((-b % m) + m) % m`
+    - `a % b` = `a - (floor(a/b) * b)`
+    - `(a + b) % m` = `(a % m + b % m) % m`
+    - `(a - b) % m` = `(a % m - b % m) % m`
+    - `(a * b) % m` = `(a % m * b % m) % m`
+  - modulo `2^32` and `2^64`
+    - `x % 10^k` got last k digit
+    - `x % 2^k` got last k bit
+    - `x % 2^k` = `x & (2^k - 1)`
+    - Note that `x % 2^k` = `x & (2^k - 1)`. So `unsigned int x, y, z; z = x * y` is the same as `z = 1LL * x * y % 2^32`. Similarly `unsigned long long` will automatically take modulo by `2^64`.
+  - modular multiplicative inverse
+    - mmi defined when `a` and `m` is coprime
+    - if `gcd(a, m) == 1` then `a` and `m` is coprime
+    - `(a / b) % m` => `(a * b^-1) % m` => `(a % m) * (b^-1 % m) % m`
+    - `b^-1 % m` - modular multiplicative inverse of `b`
+    - `(a * b) % m = 1` - `b` is mmi of `a` => `((a % m) * (b % m)) % m = 1`
+  - fermat's little theorem
+    - `a ^ m-1 = 1 % m` -> fermat's little theorem, here `m` is prime and `a` is not multiple of `m`
+    - `a^-1 % m = a^m-2` => `a^-1 = a^m-2 % m`
+    - `a / b % m` = `a * b^m-2 % m` if `m` is prime
+  - intuitive mod
+    - x mod m < m / 2 when x >= m.
 
 # Path
 
@@ -125,10 +153,22 @@ Data Structure and Algorithms Implementation with different languages
 
 ## Modular Arithmetic
 
+- [x] notation
+- [x] basic arithmetics
+- [x] binary exponentiation (bigmod)
+- [x] modulo `2^32` and `2^64`
+- [x] modular multiplicative inverse (modular inverse)
+- [x] fermat's little theorem
+- [x] mulmod
+- [x] \_\_int128
+- [x] intuitive mod
+- [x] assert function
+
 ## Data Structure
 
-- Stack
-- Queue, Circular Queue
+- [x] Stack
+- [x] Queue
+- Circular Queue
 - Linked List
 - Disjoint sets
 
