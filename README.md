@@ -49,6 +49,7 @@ Data Structure and Algorithms Implementation with different languages
     - `(a + b) % m` = `(a % m + b % m) % m`
     - `(a - b) % m` = `(a % m - b % m) % m`
     - `(a * b) % m` = `(a % m * b % m) % m`
+    - `25 ^ 4 % 10` = `(25 % 10 * 25 % 10 * 25 % 10 * 25 % 10) % 10` = `(5 * 5 * 5 * 5) % 10` = `(5 % 10 * 5 % 10 * 5 % 10 * 5 % 10) % 10`
   - modulo `2^32` and `2^64`
     - `x % 10^k` got last k digit
     - `x % 2^k` got last k bit
