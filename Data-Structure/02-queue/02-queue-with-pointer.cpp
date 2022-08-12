@@ -14,26 +14,26 @@ struct Node
 
 class Queue
 {
-    Node *_top;
-    Node *_last;
-    size_t _len;
+    Node *_front;
+    Node *_back;
+    int _capacity;
 
 public:
     Queue()
     {
-        _top = nullptr;
-        _last = nullptr;
-        _len = 0;
+        _front = nullptr;
+        _back = nullptr;
+        _capacity = 0;
     }
     ~Queue()
     {
         while (true)
         {
-            if (_top == nullptr)
+            if (_front == nullptr)
                 break;
-            Node *next_top = _top->next_p;
-            delete _top;
-            _top = next_top;
+            Node *next_top = _front->next_p;
+            delete _front;
+            _front = next_top;
         }
     }
     void push(int value)
@@ -41,29 +41,29 @@ public:
         Node *node = new Node(value);
         if (this->empty() == true)
         {
-            _top = node;
-            _last = node;
+            _front = node;
+            _back = node;
         }
         else
         {
-            _last->next_p = node;
-            _last = node;
+            _back->next_p = node;
+            _back = node;
         }
-        _len++;
+        _capacity++;
     }
     int pop()
     {
         if (this->empty() == true)
             throw "The queue is empty";
 
-        int value = _top->value;
-        Node *next_top = _top->next_p;
+        int value = _front->value;
+        Node *next_top = _front->next_p;
 
-        delete _top;
+        delete _front;
 
-        _top = next_top;
-        _last = _top == nullptr ? nullptr : _last;
-        _len--;
+        _front = next_top;
+        _back = _front == nullptr ? nullptr : _back;
+        _capacity--;
 
         return value;
     }
@@ -71,10 +71,10 @@ public:
     {
         if (this->empty() == true)
             throw "The queue is empty";
-        return _top->value;
+        return _front->value;
     }
-    bool empty() { return _top == nullptr; }
-    size_t len() { return _len; }
+    bool empty() { return _front == nullptr; }
+    int size() { return _capacity; }
 };
 
 int main()
@@ -85,16 +85,16 @@ int main()
         queue.push(10);
         queue.push(20);
         queue.push(30);
-        cout << queue.len() << "\n";
+        cout << queue.size() << "\n";
         cout << queue.top() << "\n";
         cout << queue.pop() << "\n";
         cout << queue.pop() << "\n";
         cout << queue.top() << "\n";
         cout << queue.pop() << "\n";
-        cout << queue.len() << "\n";
+        cout << queue.size() << "\n";
         queue.push(100);
         cout << queue.top() << "\n";
-        cout << queue.len() << "\n";
+        cout << queue.size() << "\n";
         cout << boolalpha << queue.empty() << "\n";
         cout << queue.pop() << "\n";
         cout << boolalpha << queue.empty() << "\n";

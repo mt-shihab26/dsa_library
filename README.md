@@ -167,28 +167,25 @@ Data Structure and Algorithms Implementation with different languages
 
 ## Data Structure
 
-- [x] Stack
-- [x] Queue
-- Circular Queue
-- Linked List
-- Disjoint sets
+- [x] stack
+- [x] queue, circular queue
 
-## Greedy:
+<!-- ## Greedy
 
-## Dynamic programming:
+## Dynamic programming
 
 - Fibonacci, Shortest path, LIS and Path Printing,
 - Longest common subsequence, Coin Change / 0-1 Napsack
 - Subset Sam, Combinatorics, Decision Problem
 - Matrix Chain Multiplication
 
-## Trees:
+## Trees
 
 - Segment Tree 1
 - Segment Tree 2
 - Binary Indexed Tree
 
-## Graph theory:
+## Graph theory
 
 - Basic of Graph
 - Adjacency matrix
@@ -204,8 +201,8 @@ Data Structure and Algorithms Implementation with different languages
 - Longest path problem
 - Strongly connected component
 
-## String:
+## String
 
 - Rabin-karp string matching
 - Knuth–Morris–Pratt (KMP)
-- Meet in the middle Technique
+- Meet in the middle Technique -->

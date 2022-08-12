@@ -7,17 +7,17 @@ class Queue
     int *_data;
     int _front;
     int _back;
-    int _ct;
     int _size;
+    int _capacity;
 
 public:
-    Queue(int size)
+    Queue(int capacity)
     {
-        _data = new int[size];
+        _data = new int[capacity];
         _front = 0;
         _back = -1;
-        _ct = 0;
-        _size = size - 1;
+        _size = 0;
+        _capacity = capacity - 1;
     }
     ~Queue()
     {
@@ -26,11 +26,11 @@ public:
     void push(int item)
     {
         _back++;
-        if (_size < _back)
+        if (_capacity < _back)
         {
             cout << "Queue limit exit -1\n";
         }
-        _ct++;
+        _size++;
         _data[_back] = item;
     }
     int front()
@@ -47,13 +47,11 @@ public:
         if (!empty())
         {
             _front++;
-            _ct--;
+            _size--;
         }
     }
-    bool empty()
-    {
-        return _ct == 0;
-    }
+    bool empty() { return _size == 0; }
+    int size() { return _size; }
 };
 
 int main()
