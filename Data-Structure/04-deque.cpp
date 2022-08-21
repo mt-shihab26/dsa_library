@@ -1,5 +1,3 @@
-// Deque Data Structure with C++
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -24,11 +22,13 @@ template <typename T>
 class Deque
 {
     Node<T> *_front, *_back;
+    size_t _size;
 
 public:
     Deque()
     {
         this->_front = this->_back = nullptr;
+        this->_size = 0;
     }
     ~Deque()
     {
@@ -52,6 +52,7 @@ public:
             node->pre = this->_back;
             this->_back = node;
         }
+        this->_size++;
     }
     void push_front(T value)
     {
@@ -63,9 +64,8 @@ public:
             node->next = this->_front;
             this->_front = node;
         }
+        this->_size++;
     }
-    T front() { return this->_front->value; }
-    T back() { return this->_back->value; }
 
     void pop_back()
     {
@@ -73,6 +73,7 @@ public:
         delete this->_back;
         this->_back = pre_node;
         this->_back->next = nullptr;
+        this->_size--;
     }
 
     void pop_front()
@@ -80,7 +81,12 @@ public:
         Node<T> *next_node = this->_front->next;
         delete this->_front;
         this->_front = next_node;
+        this->_size--;
     }
+
+    inline T front() { return this->_front->value; }
+    inline T back() { return this->_back->value; }
+    inline size_t size() { return this->_size; }
 };
 
 int main()
@@ -102,4 +108,6 @@ int main()
 
     cout << dq.front() << ed;
     cout << dq.back() << ed;
+
+    cout << dq.size() << ed;
 }
