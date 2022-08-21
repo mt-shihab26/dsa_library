@@ -2,6 +2,35 @@
 using namespace std;
 
 template <typename T>
+class StackWithArray
+{
+    T st[100005];
+    int tp = -1;
+
+public:
+    void push(T item) { st[++tp] = item; }
+
+    bool is_empty() { return tp == -1; }
+
+    void pop()
+    {
+        if (is_empty())
+            return;
+        tp--;
+    }
+
+    T top()
+    {
+        if (is_empty())
+        {
+            std::cout << "The stack is empty ";
+            return -1;
+        }
+        return st[tp];
+    };
+};
+
+template <typename T>
 struct Node
 {
     T data;

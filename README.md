@@ -168,7 +168,9 @@ Data Structure and Algorithms Implementation with different languages
 ## Data Structure
 
 - [x] stack
-- [x] queue, circular queue
+- [x] queue
+- [x] circular queue
+- [x] deque
 
 <!-- ## Greedy
 

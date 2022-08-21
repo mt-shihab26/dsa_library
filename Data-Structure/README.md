@@ -1,11 +1,12 @@
-# Stack
+# Data Structure
 
 ## Notes
 
-- Last In First Out (LIFO)
-- Here, you can:
-  1. Put a new plate on top (push)
-  1. Remove the top plate (pop)
+- Stack
+  - Last In First Out (LIFO)
+  - Here, you can:
+    1. Put a new plate on top (push)
+    1. Remove the top plate (pop)
 
 ## Watch Videos
 
