@@ -21,14 +21,17 @@
 #include <stdlib.h>
 
 typedef struct Node Node;
-struct Node {
+struct Node
+{
     int data;
     Node *next;
 };
 
-Node *create_node(int data, Node *next) {
-    Node *new_node = (Node *) malloc(sizeof(Node));
-    if (new_node == NULL) {
+Node *create_node(int data, Node *next)
+{
+    Node *new_node = (Node *)malloc(sizeof(Node));
+    if (new_node == NULL)
+    {
         printf("Error: Can't Create new Node\n");
         exit(1);
     }
@@ -37,11 +40,12 @@ Node *create_node(int data, Node *next) {
     return new_node;
 }
 
-
 // Insert Node
-Node *insert_end(Node *head, int data) {
+Node *insert_end(Node *head, int data)
+{
     Node *new_node = create_node(data, NULL);
-    if (head == NULL) return new_node;
+    if (head == NULL)
+        return new_node;
     Node *it = head;
     while (it->next != NULL)
         it = it->next;
@@ -49,22 +53,27 @@ Node *insert_end(Node *head, int data) {
     return head;
 }
 
-Node *insert_beginning(Node *head, int data) {
+Node *insert_beginning(Node *head, int data)
+{
     Node *new_node = create_node(data, head);
     return new_node;
 }
 
-Node *insert_at(Node *head, int data, int position) {
+Node *insert_at(Node *head, int data, int position)
+{
     Node *new_node = create_node(data, NULL);
-    if (position == 0) {
+    if (position == 0)
+    {
         new_node->next = head;
         return new_node;
     }
     int ct = 0;
     Node *it = head;
-    while (it != NULL) {
+    while (it != NULL)
+    {
         ct += 1;
-        if (position == ct) {
+        if (position == ct)
+        {
             new_node->next = it->next;
             it->next = new_node;
             break;
@@ -74,50 +83,60 @@ Node *insert_at(Node *head, int data, int position) {
     return head;
 }
 
-
 // Read Node
-void print_all(Node *head) {
+void print_all(Node *head)
+{
     Node *it = head;
-    while (it != NULL) {
+    while (it != NULL)
+    {
         printf("%d ", it->data);
         it = it->next;
     }
     printf("\n");
 }
-int get_at(Node *head, int position) {
+int get_at(Node *head, int position)
+{
     Node *it = head;
     int ct = 0;
-    while (it != NULL) {
-        if (ct++ == position) return it->data;
+    while (it != NULL)
+    {
+        if (ct++ == position)
+            return it->data;
         it = it->next;
     }
 }
 
-
 // Update Node
-void update_at(Node *head, int data, int position) {
+void update_at(Node *head, int data, int position)
+{
     Node *it = head;
     int ct = 0;
-    while (it != NULL) {
-        if (ct++ == position) it->data = data;
+    while (it != NULL)
+    {
+        if (ct++ == position)
+            it->data = data;
         it = it->next;
     }
 }
 
 // Delete Node
-Node *delete_at(Node *head, int position) {
-    if (position == 0) {
+Node *delete_at(Node *head, int position)
+{
+    if (position == 0)
+    {
         Node *tmp = head->next;
         free(head);
         return tmp;
     }
     Node *it = head;
     int ct = 1;
-    while (it != NULL && position > ct) {
+    while (it != NULL && position > ct)
+    {
         it = it->next;
         ct++;
     }
-    if (it != NULL) {
+    if (it != NULL)
+    {
         Node *tmp = it->next->next;
         free(it->next);
         it->next = tmp;
@@ -125,14 +144,16 @@ Node *delete_at(Node *head, int position) {
     return head;
 }
 
-void deep(Node* it) {
-    if (it == NULL) return;
+void deep(Node *it)
+{
+    if (it == NULL)
+        return;
     deep(it->next);
     printf("%d ", it->data);
 }
 
-
-int main() {
+int main()
+{
     Node *head = NULL;
     head = insert_end(head, 25);
     print_all(head);
