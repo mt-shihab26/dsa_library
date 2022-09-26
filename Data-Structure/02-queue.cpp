@@ -123,7 +123,7 @@ public:
     }
     int pop()
     {
-        if (this->empty() == true)
+        if (empty() == true)
             throw "The queue is empty";
 
         int value = _front->value;
@@ -139,7 +139,7 @@ public:
     }
     int top()
     {
-        if (this->empty() == true)
+        if (empty() == true)
             throw "The queue is empty";
         return _front->value;
     }

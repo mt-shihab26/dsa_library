@@ -5,16 +5,15 @@ using namespace std;
 #define gp ' '
 
 template <typename T>
-class Node
+struct Node
 {
-public:
     T value;
     Node<T> *next, *pre;
 
-    Node(T value)
+    Node(T _value)
     {
-        this->value = value;
-        this->next = this->pre = nullptr;
+        value = _value;
+        next = pre = nullptr;
     }
 };
 
@@ -27,66 +26,66 @@ class Deque
 public:
     Deque()
     {
-        this->_front = this->_back = nullptr;
-        this->_size = 0;
+        _front = _back = nullptr;
+        _size = 0;
     }
     ~Deque()
     {
         while (_front != nullptr)
         {
-            cerr << _front->value << gp;
-            Node<T> *next_node = this->_front->next;
-            delete this->_front;
-            this->_front = next_node;
+            // cerr << _front->value << gp;
+            Node<T> *next_node = _front->next;
+            delete _front;
+            _front = next_node;
         }
-        cerr << ed;
+        // cerr << ed;
     }
     void push_back(T value)
     {
         Node<T> *node = new Node<T>(value);
         if (_back == nullptr)
-            this->_front = this->_back = node;
+            _front = _back = node;
         else
         {
-            this->_back->next = node;
-            node->pre = this->_back;
-            this->_back = node;
+            _back->next = node;
+            node->pre = _back;
+            _back = node;
         }
-        this->_size++;
+        _size++;
     }
     void push_front(T value)
     {
         Node<T> *node = new Node<T>(value);
-        if (this->_front == nullptr)
-            this->_front = this->_back = node;
+        if (_front == nullptr)
+            _front = _back = node;
         else
         {
-            node->next = this->_front;
-            this->_front = node;
+            node->next = _front;
+            _front = node;
         }
-        this->_size++;
+        _size++;
     }
 
     void pop_back()
     {
-        Node<T> *pre_node = this->_back->pre;
-        delete this->_back;
-        this->_back = pre_node;
-        this->_back->next = nullptr;
-        this->_size--;
+        Node<T> *pre_node = _back->pre;
+        delete _back;
+        _back = pre_node;
+        _back->next = nullptr;
+        _size--;
     }
 
     void pop_front()
     {
-        Node<T> *next_node = this->_front->next;
-        delete this->_front;
-        this->_front = next_node;
-        this->_size--;
+        Node<T> *next_node = _front->next;
+        delete _front;
+        _front = next_node;
+        _size--;
     }
 
-    inline T front() { return this->_front->value; }
-    inline T back() { return this->_back->value; }
-    inline size_t size() { return this->_size; }
+    T front() { return _front->value; }
+    T back() { return _back->value; }
+    size_t size() { return _size; }
 };
 
 int main()
