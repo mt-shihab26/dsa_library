@@ -5,33 +5,30 @@
 -   Stack
     -   Last In First Out (LIFO)
     -   Here, you can:
-        1. Put a new plate on top (push)
-        1. Remove the top plate (pop)
+        -   Put a new plate on top (push)
+        -   Remove the top plate (pop)
+-   Queue
+    -   Types of Queue
+        -   [x] queue
+        -   [x] circular queue
 -   Linked List
+    -   Types of Linked List
+        -   [x] singly linked list.
+        -   [ ] doubly linked list.
     -   Linked List Prerequisite
         -   Pointer
         -   Structure
-    -   Create Node
-    -   Delete a Node
-        -   Delete node at the end of the Linked List.
-        -   Delete node at the beginning of the Linked List.
-        -   Delete node any ware in the Linked List.
-    -   Insert new node
-        -   Insert node at the end of the Linked List
-        -   Insert node at the beginning of the Linked List
-        -   Insert node any ware in the Linked list .
-    -   Linked List Traversal
-        -   Print all Linked List element
-    -   Doubly Linked List
+    -   Operation
+        -   Insert Node
+        -   Read Node
+        -   Update Node
+        -   Delete a Node
     -   The difference between an array and a linked list
         -   Memory Usage: Fixed vs Dynamic
         -   Memory Allocation: Compile time vs Run time
         -   Insert/Delete Data: Hard vs Easy
         -   Random Access: Easy vs Hard
         -   Update Data/Node: Easy vs Hard
-    -   Types of Linked List
-        -   [x] Singly Linked list.
-        -   [ ] Doubly Linked list.
 
 ## Watch Videos
 

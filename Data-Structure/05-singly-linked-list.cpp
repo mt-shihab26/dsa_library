@@ -104,6 +104,23 @@ public:
         delete tmp_head->next;
         tmp_head->next = tmp_next;
     }
+
+    void remove_back()
+    {
+        Node *tmp_head = head;
+        while (tmp_head->next->next != nullptr)
+            tmp_head = tmp_head->next;
+        delete tmp_head->next;
+        tmp_head->next = nullptr;
+    }
+
+    void remote_front()
+    {
+        Node *tmp_next = head->next;
+        delete head;
+        head = tmp_next;
+    }
+
     ~SinglyLinkedList()
     {
         while (head != nullptr)
@@ -135,4 +152,11 @@ int main()
 
     l.remove(2); // in          : 14 10 77 19
     l.print();   // stdout      : 14 10 77 19
+
+    l.remove_back();
+    l.remove_back();
+    l.print(); // stdout      : 14 10
+
+    l.remote_front();
+    l.print(); // stdout : 10
 }
