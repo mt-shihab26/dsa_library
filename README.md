@@ -67,6 +67,14 @@ Data Structures and Algorithms Implementation with different languages
         -   `a / b % m` = `a * b^m-2 % m` if `m` is prime
     -   intuitive mod
         -   x mod m < m / 2 when x >= m.
+        
+## STL Components list
+
+- Functions
+    - Min/Max: min(), max(), min_element(), max_element()
+    - Binary Search: binary_search(), upper_bound(), lower_bound()
+    - Modifying: reverse(), swap(), unique()
+    - Sorting: sort()
 
 # Path
 
