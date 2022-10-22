@@ -74,6 +74,7 @@ Data Structures and Algorithms Implementation with different languages
     - Min/Max: min(), max(), min_element(), max_element()
     - Binary Search: binary_search(), upper_bound(), lower_bound()
     - Modifying: reverse(), swap(), unique()
+    - Non-modifying: count()
     - Sorting: sort()
 
 # Path
@@ -180,7 +181,6 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] circular queue
 -   [x] deque
 -   [x] singly linked list
--   [x] 
 
 <!-- ## Greedy
 
