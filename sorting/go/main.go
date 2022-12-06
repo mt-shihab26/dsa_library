@@ -15,7 +15,7 @@ func main() {
 	fmt.Print("selection(s): \t", s, "\n\n")
 
 	r2 := bubbleSort(s, func(x, y int) bool { return x < y })
-	fmt.Print("bubble(r2): \t", r2, )
+	fmt.Print("bubble(r2): \t", r2, "\n")
 	fmt.Print("bubble(s): \t", s, "\n\n")
 
 }
