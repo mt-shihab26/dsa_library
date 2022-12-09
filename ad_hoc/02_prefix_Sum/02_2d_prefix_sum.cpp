@@ -1,5 +1,5 @@
 /*
-Given 2d array a of N*N integers. Given Q 
+Given 2d array a of N*N integers. Given Q
 queries and in each query given a, b, c and d
 print sum of square prepresented by (a, b) as
 top left point and (c, d) as bottom right point
@@ -14,40 +14,44 @@ Constraints
 #include <bits/stdc++.h>
 using namespace std;
 
-const int N = 1e3+10;
+const int N = 1e3 + 10;
 
 int martix[N][N];
 
-int main(void) {
+int main(void)
+{
     int n;
-    cin >>n;
+    cin >> n;
     int i, j;
-    for (i = 1; i <= n; i++) {
-        for (j = 1; j <= n; j++) {
-            cin >>martix[i][j];
+    for (i = 1; i <= n; i++)
+    {
+        for (j = 1; j <= n; j++)
+        {
+            cin >> martix[i][j];
         }
     }
 
     int q, a, b, c, d;
-    cin >>q;
-    while (q--) {
-        cin >>a >>b >>c >>d;
+    cin >> q;
+    while (q--)
+    {
+        cin >> a >> b >> c >> d;
         long long int sum = 0;
-        for (i = a; i <= c; i++) {
-            for (j = b; j <= d; j++) {
+        for (i = a; i <= c; i++)
+        {
+            for (j = b; j <= d; j++)
+            {
                 sum += martix[i][j];
             }
         }
-        cout <<sum <<"\n";
+        cout << sum << "\n";
     }
 
     // O(N^2) + O(Q*N^2) -> O(Q*N^2)  10^5 * 10 ^ 6 = 10 ^ 11
-
 }
 
-
 /*
-Given 2d array a of N*N integers. Given Q 
+Given 2d array a of N*N integers. Given Q
 queries and in each query given a, b, c and d
 print sum of square prepresented by (a, b) as
 top left point and (c, d) as bottom right point
@@ -62,29 +66,33 @@ Constraints
 #include <bits/stdc++.h>
 using namespace std;
 
-const int N = 1e3+10;
+const int N = 1e3 + 10;
 long long int prefix_sum[N][N];
 
-int main(void) {
+int main(void)
+{
     int n;
-    cin >>n;
+    cin >> n;
     int i, j;
     int temp;
-    for (i = 1; i <= n; i++) {
-        for (j = 1; j <= n; j++) {
-            cin >>temp; // 2 , 2
-            prefix_sum[i][j] = temp + 
-                (prefix_sum[i-1][j] + prefix_sum[i][j-1]) - prefix_sum[i-1][j-1]; 
+    for (i = 1; i <= n; i++)
+    {
+        for (j = 1; j <= n; j++)
+        {
+            cin >> temp; // 2 , 2
+            prefix_sum[i][j] = temp +
+                               (prefix_sum[i - 1][j] + prefix_sum[i][j - 1]) - prefix_sum[i - 1][j - 1];
         }
     }
 
     int q;
-    cin >>q;
+    cin >> q;
     int a, b, c, d;
-    while (q--) {
-        cin >> a >>b >>c >>d;
-        cout <<prefix_sum[c][d] - prefix_sum[a-1][d] - prefix_sum[c][b-1] + prefix_sum[a-1][b-1];
-        cout <<"\n";
+    while (q--)
+    {
+        cin >> a >> b >> c >> d;
+        cout << prefix_sum[c][d] - prefix_sum[a - 1][d] - prefix_sum[c][b - 1] + prefix_sum[a - 1][b - 1];
+        cout << "\n";
     }
     // for (i = 1; i <= n; i++) {
     //     for (j = 1; j <= n; j++) {
@@ -94,5 +102,4 @@ int main(void) {
     // }
 
     // O(Q)
-
 }

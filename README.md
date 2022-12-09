@@ -154,7 +154,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] sieve of eratosthenes
 -   [x] string multiplication
 
-## Binary Numbers
+## binary numbers
 
 -   [x] base conversion
 -   [x] bitwise operators
@@ -165,7 +165,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] bitset
 -   [x] contribution technique
 
-## Modular Arithmetic
+## modular arithmetic
 
 -   [x] basic arithmetics
 -   [x] overflow
@@ -174,7 +174,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] mulmod
 -   [x] factorial with mod
 
-## Data Structure
+## data structure
 
 -   [x] stack
 -   [x] queue
