@@ -7,7 +7,7 @@ Data Structures and Algorithms Implementation with different languages
 ## Notes
 
 -   STDIO
-    - `cout << fixed << setprecision(10)`
+    -   `cout << fixed << setprecision(10)`
 -   Language
     -   `int` capacity: `-2 * 10^9` to `2 * 10^9`
     -   `long long int` capacity: `-9 * 10^18` to `9 * 10^18`
