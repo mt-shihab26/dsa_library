@@ -1,13 +1,16 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n;
     scanf("%d", &n);
 
-    if (n % 2 == 0) {
+    if (n % 2 == 0)
+    {
         printf("%d is even number.\n", n);
     }
-    else {
+    else
+    {
         printf("%d is odd number\n", n);
     }
     return 0;

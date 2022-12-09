@@ -81,19 +81,21 @@ Data Structures and Algorithms Implementation with different languages
 
 # Path
 
-## Complexity
+## complexity
 
--   [x] Time complexity
--   [x] Space complexity
--   [x] O(1)
--   [x] O(n)
--   [x] O(n^2)
--   [x] O(n^3)
--   [x] O(sqrt(n))
--   [x] O(log(n))
--   [x] Logarithm
+-   [x] time complexity
+-   [x] space complexity
+-   [x] constant `O(1)`
+-   [x] logarithmic `O(log n)`
+-   [x] linear `O(n)`
+-   [x] quadratic `O(n^2)`
+-   [x] cubic `O(n^3)`
+-   [ ] linearithmic `O(n log n)`
+-   [ ] exponential `O(2^n)`
+-   [ ] factorial `O(n!)`
+-   [ ] `O(sqrt(n))`
 
-## Recursion
+## recursion
 
 -   [x] print 1 to n
 -   [x] print n to 1
@@ -105,7 +107,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] calculate x of the power y
 -   [x] reverse string
 
-## Cpp STL
+## stl
 
 -   [x] pair
 -   [x] vector
@@ -119,7 +121,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] stack
 -   [x] queue, deque, priority_queue
 
-## Sorting
+## sorting
 
 -   [x] selection sort
 -   [x] bubble sort
@@ -131,7 +133,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] comparator function
 -   quick sort
 
-## Searching
+## searching
 
 -   [x] linear search
 -   [x] binary search
@@ -143,7 +145,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] max in a hill
 -   [x] square root
 
-## Primes and Divisors
+## primes and divisors
 
 -   [x] divisors
 -   [x] gcd lcm
