@@ -1,6 +1,6 @@
 package main
 
-func bubbleSort(slice []int, fn func(x, y int) bool) []int {
+func BubbleSort(slice []int, fn cmp) []int {
 	ln := len(slice)
 	s := make([]int, ln)
 	copy(s, slice)

@@ -25,7 +25,7 @@ void print(const Tp &vc)
 
 // not in place
 // takes extra O(n) memory
-// slower performance due to memory mang
+// slower performance due to memory management
 // fixed expected performance
 // stable
 void marge_sort(vector<int> &arr, int start, int end)

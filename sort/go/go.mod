@@ -1,4 +1,4 @@
-module github.com/shh26b/dsa/sorting/go
+module github.com/shh26b/dsa/sort/go
 
 go 1.19
 
