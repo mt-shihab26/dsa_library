@@ -165,16 +165,12 @@ Data Structures and Algorithms Implementation with different languages
 
 ## Modular Arithmetic
 
--   [x] notation
 -   [x] basic arithmetics
--   [x] binary exponentiation (bigmod)
--   [x] modulo `2^32` and `2^64`
--   [x] modular multiplicative inverse (modular inverse)
--   [x] fermat's little theorem
+-   [x] overflow
+-   [x] bigmod (binary exponentiation)
+-   [x] modular inverse (modular multiplicative inverse)
 -   [x] mulmod
--   [x] \_\_int128
--   [x] intuitive mod
--   [x] assert function
+-   [x] factorial with mod
 
 ## Data Structure
 
