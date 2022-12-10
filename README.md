@@ -145,7 +145,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] max in a hill
 -   [x] square root
 
-## primes and divisors
+## prime
 
 -   [x] divisors
 -   [x] gcd lcm
