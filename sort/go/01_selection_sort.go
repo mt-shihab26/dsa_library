@@ -1,13 +1,13 @@
 package main
 
-func SelectionSort(slice []int, fn cmp) []int {
+func SelectionSort(slice []int, less func(a, b int) bool) []int {
 	ln := len(slice)
 	s := make([]int, ln)
 	copy(s, slice)
 	for i := 0; i < ln; i++ {
 		mx, mxI := s[i], i
 		for j := i + 1; j < ln; j++ {
-			if fn(s[j], mx) {
+			if less(s[j], mx) {
 				mx = s[j]
 				mxI = j
 			}

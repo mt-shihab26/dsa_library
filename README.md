@@ -121,7 +121,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] stack
 -   [x] queue, deque, priority_queue
 
-## sorting
+## sort
 
 -   [x] selection sort
 -   [x] bubble sort
@@ -133,7 +133,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] comparator function
 -   quick sort
 
-## searching
+## search
 
 -   [x] linear search
 -   [x] binary search
@@ -154,7 +154,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] sieve of eratosthenes
 -   [x] string multiplication
 
-## binary numbers
+## bits
 
 -   [x] base conversion
 -   [x] bitwise operators
@@ -165,7 +165,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] bitset
 -   [x] contribution technique
 
-## modular arithmetic
+## mods
 
 -   [x] basic arithmetics
 -   [x] overflow

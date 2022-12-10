@@ -1,13 +1,13 @@
 package main
 
-func sort(s []int, l, h int, fn cmp) {
+func sort(s []int, l, h int, less func(a, b int) bool) {
 	if l == h {
 		return
 	}
 	md := l + (h-l)/2
 
-	sort(s, l, md, fn)
-	sort(s, md+1, h, fn)
+	sort(s, l, md, less)
+	sort(s, md+1, h, less)
 
 	ln, k, m := h-l+1, l, md+1
 	a := make([]int, ln)
@@ -18,7 +18,7 @@ func sort(s []int, l, h int, fn cmp) {
 		} else if m > h {
 			a[i] = s[k]
 			k++
-		} else if fn(s[k], s[m]) {
+		} else if less(s[k], s[m]) {
 			a[i] = s[k]
 			k++
 		} else {
@@ -31,10 +31,10 @@ func sort(s []int, l, h int, fn cmp) {
 	}
 }
 
-func MergeSort(slice []int, fn cmp) []int {
+func MergeSort(slice []int, less func(a, b int) bool) []int {
 	ln := len(slice)
 	s := make([]int, ln)
 	copy(s, slice)
-	sort(s, 0, ln-1, fn)
+	sort(s, 0, ln-1, less)
 	return s
 }
