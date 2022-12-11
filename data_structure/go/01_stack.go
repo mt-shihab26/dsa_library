@@ -1,57 +1,55 @@
 package main
 
-import (
-	"strconv"
-)
+import "fmt"
 
-type Node struct {
-	data int
-	pre  *Node
+type Node[T any] struct {
+	data T
+	pre  *Node[T]
 }
 
-type Stack struct {
-	top *Node
+type Stack[T any] struct {
+	top *Node[T]
 	len int
 }
 
-func (s *Stack) Push(e int) {
-	node := &Node{e, s.top}
+func (s *Stack[T]) Push(e T) {
+	node := &Node[T]{e, s.top}
 	s.top = node
 	s.len++
 }
 
-func (s *Stack) Pop() {
+func (s *Stack[T]) Pop() {
 	pre := s.top.pre
 	s.top = nil
 	s.top = pre
 	s.len--
 }
 
-func (s *Stack) Str() string {
+func (s *Stack[T]) Str() string {
 	p := s.top
 	str := " }"
 	for i := 0; i < s.len; i++ {
-		str = strconv.Itoa(p.data) + " " + str
+		str = fmt.Sprintf("%v %v", p.data, str)
 		p = p.pre
 	}
 	return "{ " + str
 }
 
-func (s *Stack) Print() {
+func (s *Stack[T]) Print() {
 	str := s.Str()
 	println(str)
 }
 
-func (s *Stack) Len() int {
+func (s *Stack[T]) Len() int {
 	return s.len
 }
 
-func (s *Stack) Top() int {
+func (s *Stack[T]) Top() T {
 	return s.top.data
 }
 
 func main() {
-	st := Stack{}
+	st := Stack[int]{}
 
 	st.Push(10) // 10
 	st.Push(20) // 10 20
