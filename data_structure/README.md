@@ -75,6 +75,7 @@
 
 ## Linked List Problems
 
+-   [LeetCode: Linked List tags](https://leetcode.com/tag/linked-list), `Count: 3`
 -   [x] [HackerRank: Print the Elements of a Linked List (Easy)](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list)
 -   [x] [HackerRank: Insert a Node at the Tail of a Linked List (Easy)](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list)
 -   [x] [HackerRank: Insert a node at the head of a linked list (Easy)](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list)
