@@ -181,6 +181,7 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] circular queue
 -   [x] deque
 -   [x] singly linked list
+-   [ ] priority queue
 
 <!-- ## Greedy
 
