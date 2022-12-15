@@ -41,24 +41,14 @@
 -   [x] [লিঙ্কড লিস্ট - ৫ (Linked List - 5) - ডবলি লিঙ্কড লিস্ট (Tamim Shahriar)](https://youtu.be/kyuPR9SqvDY)
 -   [x] [লিঙ্কড লিস্ট - ৬ (Linked List - 6) - অ্যারে ও লিঙ্কড লিস্ট-এর পার্থক্য (Tamim Shahriar)](https://youtu.be/DKpe5gsySag)
 
-## Stack Reading Resources
+## Reading Resources
 
+-   [ ] pcdsa book: chapter 05
 -   [ ] [ডাটা স্ট্রাকচার : স্ট্যাক (shafaetsplanet.com)](http://www.shafaetsplanet.com/?p=2342)
 -   [x] [Stack Data Structure (programiz.com)](https://www.programiz.com/dsa/stack)
 -   [x] [Stack in C++ STL (geeksforgeeks)](https://www.geeksforgeeks.org/stack-in-cpp-stl/)
--   [x] [stack swap() in C++ STL (geeksforgeeks)](https://www.geeksforgeeks.org/stack-swap-in-c-stl/)
-
-## Linked List Reading Resources
-
+-   [x] [stack swap() in C++ STL (geeksforgeeks)](https://www.geeksforgeeks.org/stack-swap-in-c-stl)
 -   [ ] http://www.shafaetsplanet.com/?p=2689
--   [ ] https://www.geeksforgeeks.org/linked-list-set-1-introduction/
--   [ ] https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/
--   [ ] https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/
--   [ ] https://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/
--   [ ] https://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
--   [ ] https://www.geeksforgeeks.org/search-an-element-in-a-linked-list-iterative-and-recursive/
--   [ ] https://www.geeksforgeeks.org/write-a-function-to-get-nth-node-in-a-linked-list/
--   [ ] https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/
 
 ## Stack Problems
 
