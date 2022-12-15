@@ -62,20 +62,20 @@
 
 ## Stack Problems
 
--   LeetCode List: https://leetcode.com/tag/stack/
+-   LeetCode Stack Tag `3/136`: https://leetcode.com/tag/stack/
 -   HackerRank List: https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=stacks
--   LightOJ List: https://lightoj.com/problems/category/stack
+-   [x] LightOJ Stack Category `2/2`: https://lightoj.com/problems/category/stack
 -   [x] [LightOJ: 1113-Discover the Web](https://lightoj.com/problem/discover-the-web)
 -   [x] [HackerRank: Balanced Brackets (Medium)](https://www.hackerrank.com/challenges/balanced-brackets)
 -   [x] [LeetCode: 20. Valid Parentheses (Easy)](https://leetcode.com/problems/valid-parentheses/)
 -   [x] [LeetCode: 22. Generate Parentheses (Medium)](https://leetcode.com/problems/generate-parentheses)
 -   [x] [HackerRank: Maximum Element (Easy)](https://www.hackerrank.com/challenges/maximum-element)
 -   [x] [HackerRank: Equal Stacks (Easy)](https://www.hackerrank.com/challenges/equal-stacks/problem)
--   [ ] [LightOJ: 1083-Histogram](https://lightoj.com/problem/histogram)
+-   [x] [LightOJ: 1083-Histogram](https://lightoj.com/problem/histogram)
 
 ## Linked List Problems
 
--   [LeetCode: Linked List tags](https://leetcode.com/tag/linked-list), `Count: 3`
+-   LeetCode Linked List Tag `3/70`: https://leetcode.com/tag/linked-list
 -   [x] [HackerRank: Print the Elements of a Linked List (Easy)](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list)
 -   [x] [HackerRank: Insert a Node at the Tail of a Linked List (Easy)](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list)
 -   [x] [HackerRank: Insert a node at the head of a linked list (Easy)](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list)
