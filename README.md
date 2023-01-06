@@ -79,10 +79,6 @@ Data Structures and Algorithms Implementation with different languages
     -   Non-modifying: `count()`
     -   Sorting: `sort()`
 
-## Links
-
--   Graph & Trees Course: https://youtube.com/playlist?list=PLauivoElc3ghxyYSr_sVnDUc_ynPk6iXE
-
 # Path
 
 ## complexity
@@ -188,19 +184,3 @@ Data Structures and Algorithms Implementation with different languages
 -   [ ] priority queue
 
 ## `graph`
-
--   Representation
-    -   Matrix
-    -   List
-        -   Arrays of Vectors
-        -   Vectors of Vectors
--   Traversal
-    -   DFS
-    -   BFS
--   Algorithms
-    -   Dijkstra
-    -   Bellman Ford
-    -   Disjoint Set Union
-    -   Minimum Spanning Tree
-    -   Directed Acyclic Graph
-    -   Topological Sort
