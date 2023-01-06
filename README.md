@@ -79,6 +79,10 @@ Data Structures and Algorithms Implementation with different languages
     -   Non-modifying: `count()`
     -   Sorting: `sort()`
 
+## Links
+
+-   Graph & Trees Course: https://youtube.com/playlist?list=PLauivoElc3ghxyYSr_sVnDUc_ynPk6iXE
+
 # Path
 
 ## complexity
@@ -183,39 +187,20 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] singly linked list
 -   [ ] priority queue
 
-<!-- ## Greedy
+## `graph`
 
-## Dynamic programming
-
-- Fibonacci, Shortest path, LIS and Path Printing,
-- Longest common subsequence, Coin Change / 0-1 Napsack
-- Subset Sam, Combinatorics, Decision Problem
-- Matrix Chain Multiplication
-
-## Trees
-
-- Segment Tree 1
-- Segment Tree 2
-- Binary Indexed Tree
-
-## Graph theory
-
-- Basic of Graph
-- Adjacency matrix
-- Adjacency list
-- Breadth-first search
-- Depth First Search
-- Topological Sort
-- Dijkstra
-- Bellman–Ford
-- Floyd Warshall
-- Minimum Spanning Tree 1, 2
-- Maximum flow 1, 2
-- Longest path problem
-- Strongly connected component
-
-## String
-
-- Rabin-karp string matching
-- Knuth–Morris–Pratt (KMP)
-- Meet in the middle Technique -->
+-   Representation
+    -   Matrix
+    -   List
+        -   Arrays of Vectors
+        -   Vectors of Vectors
+-   Traversal
+    -   DFS
+    -   BFS
+-   Algorithms
+    -   Dijkstra
+    -   Bellman Ford
+    -   Disjoint Set Union
+    -   Minimum Spanning Tree
+    -   Directed Acyclic Graph
+    -   Topological Sort
