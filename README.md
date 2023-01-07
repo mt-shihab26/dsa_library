@@ -184,3 +184,8 @@ Data Structures and Algorithms Implementation with different languages
 -   [ ] priority queue
 
 ## `graph`
+
+-   [x] adjacency matrix
+-   [x] adjacency list
+-   [x] adjacency matrix with edge weight
+-   [x] adjacency list with edge weight

@@ -42,3 +42,8 @@
 ## Equation
 
 -   if tree has `n` nodes then it has `n - 1` edges
+
+## Represent graph in code
+
+-   Adjacency Matrix
+-   Adjacency List
