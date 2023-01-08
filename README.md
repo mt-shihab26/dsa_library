@@ -183,9 +183,10 @@ Data Structures and Algorithms Implementation with different languages
 -   [x] singly linked list
 -   [ ] priority queue
 
-## `graph`
+## graph
 
 -   [x] adjacency matrix
 -   [x] adjacency list
 -   [x] adjacency matrix with edge weight
 -   [x] adjacency list with edge weight
+-   [x] dfs (depth first search)
