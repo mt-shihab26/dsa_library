@@ -43,5 +43,5 @@ int main(void) {
         cout << (test() ? "YES" : "NO") << endn;
     }
 }
-// Solved By: shihab4t
+// Solved By: p-nerd
 // Wednesday, August 11, 2021 | 12:37:54 PM (BST)

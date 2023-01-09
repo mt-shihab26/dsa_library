@@ -26,4 +26,4 @@ if __name__ == "__main__":
     insertion_sort(strs)
     print(strs)
 
-# by Shihab Mahamud (github.com/shihab4t)
+# by Shihab Mahamud (github.com/p-nerd)

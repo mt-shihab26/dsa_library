@@ -1,5 +1,7 @@
-## [Lecture 36 - Tuple in STL](https://github.com/shihab4t/SelfStudy/blob/mainCpp/Cpp-by-Saurabh-Shukla/readme/l36-Tuple-in-STL.md)
-* Just linke in pair, we can pair two heterogeneous objects, in tuple we can pair multiple objects.
+## [Lecture 36 - Tuple in STL](/readme/l36-Tuple-in-STL.md)
+
+-   Just linke in pair, we can pair two heterogeneous objects, in tuple we can pair multiple objects.
+
 ```c++
 #include <iostream>
 #include <tuple>

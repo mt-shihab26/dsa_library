@@ -58,4 +58,4 @@ int main()
         printf("%s\n", a[i]);
     }
 }
-// by Shihab Mahamud (github.com/shihab4t)
+// by Shihab Mahamud (github.com/p-nerd)
