@@ -51,3 +51,5 @@
 ## Solved Problems
 
 -   List of Very Good dfs practice Questions(scroll to end): https://cp-algorithms.com/graph/depth-first-search.html
+-   [x] Codeforces: Kefa and Park (\*1500): https://codeforces.com/problemset/problem/580/C
+-   [x] HackerEarth: Connected Components in a Graph (Easy): https://www.hackerearth.com/problem/algorithm/connected-components-in-a-graph/
