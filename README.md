@@ -1,6 +1,6 @@
 # Data-Structure-and-Algorithms
 
-Data Structures and Algorithms Implementation with different languages
+Data Structures and Algorithms Implementation with C++
 
 <!-- ## Started CP: `12/05/2021` -->
 
