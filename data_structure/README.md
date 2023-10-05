@@ -64,7 +64,6 @@
     -   [x] [লিঙ্কড লিস্ট - ৬ (Linked List - 6) - অ্যারে ও লিঙ্কড লিস্ট-এর পার্থক্য (Tamim Shahriar)](https://youtu.be/DKpe5gsySag)
     -   [ ] http://www.shafaetsplanet.com/?p=2689
 -   Problems
-    -   LeetCode Linked List Tag `3/70`: https://leetcode.com/tag/linked-list
     -   [x] [HackerRank: Print the Elements of a Linked List (Easy)](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list)
     -   [x] [HackerRank: Insert a Node at the Tail of a Linked List (Easy)](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list)
     -   [x] [HackerRank: Insert a node at the head of a linked list (Easy)](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list)
