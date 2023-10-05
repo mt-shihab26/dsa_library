@@ -75,6 +75,6 @@
 -   [x] [HackerRank: Reverse a linked list (Easy)](https://www.hackerrank.com/challenges/reverse-a-linked-list)
 -   [x] [HackerRank: Compare two linked lists (Easy)](https://www.hackerrank.com/challenges/compare-two-linked-lists)
 -   [x] [HackerRank: Merge two sorted linked lists (Easy)](https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists)
--   [ ] [LeetCode: 206. Reverse Linked List (Easy)](https://leetcode.com/problems/reverse-linked-list/)
+-   [x] [LeetCode: 206. Reverse Linked List (Easy)](https://leetcode.com/problems/reverse-linked-list/)
 -   [ ] [LeetCode: 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
 -   [ ] [HackerRank: Cycle Detection (Easy)](https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle)
