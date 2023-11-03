@@ -62,7 +62,7 @@
     -   [x] [লিঙ্কড লিস্ট - ৪ (Linked List - 4) - ট্রাভার্স করা (Tamim Shahriar)](https://youtu.be/XLBBmEUILi4)
     -   [x] [লিঙ্কড লিস্ট - ৫ (Linked List - 5) - ডবলি লিঙ্কড লিস্ট (Tamim Shahriar)](https://youtu.be/kyuPR9SqvDY)
     -   [x] [লিঙ্কড লিস্ট - ৬ (Linked List - 6) - অ্যারে ও লিঙ্কড লিস্ট-এর পার্থক্য (Tamim Shahriar)](https://youtu.be/DKpe5gsySag)
-    -   [ ] http://www.shafaetsplanet.com/?p=2689
+    -   [x] http://www.shafaetsplanet.com/?p=2689
 -   Problems
     -   [x] [HackerRank: Print the Elements of a Linked List (Easy)](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list)
     -   [x] [HackerRank: Insert a Node at the Tail of a Linked List (Easy)](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list)
