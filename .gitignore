@@ -7,3 +7,4 @@ go.out
 tmp.*
 students-classes
 .DS_Store
+node_modules
