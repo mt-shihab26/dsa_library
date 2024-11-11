@@ -1,3 +1,10 @@
+## Notes
+
+-   Eluer totient function: Φ (phi symbol)
+    -   Φ(n) -> number of positive intergers less then 'n' that are coprime to no
+    -   Φ(5) -> 4 (1, 2, 3 and 4 is coprime to n)
+    -   when two numbers have no comman factors that called coprime to each other
+
 # Primes and Divisors
 
 ## Problems
