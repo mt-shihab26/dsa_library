@@ -214,7 +214,7 @@
 
 ---
 
-## 🛠️ Tools & Practice Platforms
+## Tools & Practice Platforms
 
 - **Codeforces** (div 1/2/3 problems)
 - **AtCoder** (ABC, ARC, AGC)
@@ -225,7 +225,7 @@
 
 ---
 
-## 📚 Suggested Books
+## Suggested Books
 
 - **"Competitive Programming" by Halim Brothers**
 - **"Algorithm Design Manual" by Steven Skiena**
