@@ -243,5 +243,3 @@ If you're aiming for **research, academia, or very high-level optimization probl
 - Quantum Algorithms (for theoretical interest)
 
 ---
-
-Would you like this in a roadmap format or visual flowchart?
