@@ -2,8 +2,8 @@
 
 ### 1. **C Programming Fundamentals**
 
-- Data types, variables, operators
-- Conditional statements (if, switch)
+- [x] Data types, variables, operators
+- [x] Conditional statements (if, switch)
 - Loops (for, while, do-while)
 - Functions and recursion
 - Arrays and strings
