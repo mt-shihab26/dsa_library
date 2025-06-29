@@ -6,9 +6,9 @@
 -   2. [x] Conditional statements (if, switch)
 -   3. [ ] Loops (for, while, do-while)
 -   4. [ ] Functions and recursion
--   5. Arrays and strings
--   6. Pointers and memory management (`malloc`, `free`)
--   7. Structures and unions
+-   5. [ ] Arrays and strings
+-   6. [ ] Pointers and memory management (`malloc`, `free`)
+-   7. [ ] Structures and unions
 
 ### 2. **Basic Algorithms**
 
