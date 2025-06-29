@@ -2,13 +2,13 @@
 
 ### 1. **C Programming Fundamentals**
 
-- [x] Data types, variables, operators
-- [x] Conditional statements (if, switch)
-- Loops (for, while, do-while)
-- Functions and recursion
-- Arrays and strings
-- Pointers and memory management (`malloc`, `free`)
-- Structures and unions
+-   1. [x] Data types, variables, operators
+-   2. [x] Conditional statements (if, switch)
+-   3. [ ] Loops (for, while, do-while)
+-   4. [ ] Functions and recursion
+-   5. Arrays and strings
+-   6. Pointers and memory management (`malloc`, `free`)
+-   7. Structures and unions
 
 ### 2. **Basic Algorithms**
 
