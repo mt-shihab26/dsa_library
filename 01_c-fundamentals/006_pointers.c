@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+void pointer_to_pointer_example() {
     int a = 5;
     int *p = &a;
     printf("value of the pointer: %p\n", p);
@@ -9,7 +9,9 @@ int main() {
 
     *p = 10;
     printf("manupulate value of a through p pointer: %d\n", a);
+}
 
+void manage_heap_memory() {
     // manage run time memory (heap memory)
     int *arr = (int *)malloc(5 * sizeof(int));
 
@@ -33,7 +35,9 @@ int main() {
     }
 
     free(arr);
+}
 
+void void_pointer() {
     // void pointer
     int x = 32;
     float y = 3.14;
@@ -45,4 +49,10 @@ int main() {
 
     vptr = &y;
     printf("The value of y is: %lf\n", *(float *)vptr);
+}
+
+int main() {
+    pointer_to_pointer_example();
+    manage_heap_memory();
+    void_pointer();
 }
