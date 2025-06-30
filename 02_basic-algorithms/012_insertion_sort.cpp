@@ -1,15 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-template <typename T>
-void __insertion_sort__(vector<T> &a)
-{
+template <typename T> void __insertion_sort__(vector<T> &a) {
     int i, j, n = a.size();
-    for (i = 0; i < n; i++)
-    {
+    for (i = 0; i < n; i++) {
         j = i - 1;
-        while (j >= 0 && a[j] > a[j + 1])
-        {
+        while (j >= 0 && a[j] > a[j + 1]) {
             swap(a[j], a[j + 1]);
             j--;
         }
@@ -17,19 +13,13 @@ void __insertion_sort__(vector<T> &a)
 }
 
 // Insertion Sort Iterative Implementation
-void insertion_sort(int arr[], int n)
-{
+void insertion_sort(int arr[], int n) {
     int i, j;
-    for (i = 0; i < n; i++)
-    {
-        for (j = i - 1; j >= 0; j--)
-        {
-            if (arr[j] > arr[j + 1])
-            {
+    for (i = 0; i < n; i++) {
+        for (j = i - 1; j >= 0; j--) {
+            if (arr[j] > arr[j + 1]) {
                 swap(arr[j], arr[j + 1]);
-            }
-            else
-            {
+            } else {
                 break;
             }
         }
@@ -37,18 +27,15 @@ void insertion_sort(int arr[], int n)
 }
 
 // Insertion Sort Recursive Implementation
-void go_back(int arr[], int i, int item)
-{
-    if (arr[i] <= item || i == -1)
-    {
+void go_back(int arr[], int i, int item) {
+    if (arr[i] <= item || i == -1) {
         arr[i + 1] = item;
         return;
     }
     arr[i + 1] = arr[i];
     go_back(arr, i - 1, item);
 }
-void insertion_sort_recursive(int arr[], int i, int n)
-{
+void insertion_sort_recursive(int arr[], int i, int n) {
     if (i == n)
         return;
     go_back(arr, i - 1, arr[i]);
@@ -56,31 +43,19 @@ void insertion_sort_recursive(int arr[], int i, int n)
 }
 
 // Insertion Sort Recursive Implementation another way
-void go_back(int arr[], int i, int item)
-{
-    if (arr[i] <= item || i == -1)
-    {
-        arr[i + 1] = item;
-        return;
-    }
-    arr[i + 1] = arr[i];
-    go_back(arr, i - 1, item);
-}
-void insertion_sort_recursive2(int arr[], int n)
-{
+
+void insertion_sort_recursive2(int arr[], int n) {
     if (n == 0)
         return;
     insertion_sort_recursive2(arr, n - 1);
     go_back(arr, n - 2, arr[n - 1]);
 }
 
-int main()
-{
+int main() {
     int n;
     cin >> n;
     int arr[n];
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
 
@@ -88,8 +63,7 @@ int main()
     insertion_sort_recursive(arr, 0, n);
     insertion_sort_recursive2(arr, n);
 
-    for (int ith : arr)
-    {
+    for (int ith : arr) {
         cout << ith << " ";
     }
     cout << "\n";
