@@ -8,13 +8,18 @@
 -   4. [x] Functions and recursion
 -   5. [x] Arrays and strings
 -   6. [x] Pointers and memory management (`malloc`, `free`)
--   7. [ ] Structures and unions
+-   7. [x] Structures and unions
 
 ### 2. **Basic Algorithms**
 
-- Searching: Linear search, Binary search
-- Sorting: Bubble, Selection, Insertion sort
-- Basic Recursion examples (factorial, Fibonacci, etc.)
+-   8. [x] Linear search,
+-   9. [x] Binary search
+-   10. [x] Selection sort
+-   11. [x] Bubble sort
+-   12. [x] Insertion sort
+-   13. [x] Counting sort
+-   14. [x] Basic Recursion examples (Fibonacci)
+-   15. [x] Basic Recursion examples (Factorial)
 
 ### 3. **Basic Data Structures**
 
