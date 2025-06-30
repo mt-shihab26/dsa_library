@@ -51,8 +51,24 @@ void void_pointer() {
     printf("The value of y is: %lf\n", *(float *)vptr);
 }
 
+void swap(int *a, int *b) {
+    int tmp = *a;
+    *a = *b;
+    *b = tmp;
+}
+
+void swap_function() {
+    int a = 10, b = 20;
+
+    printf("\n--- Swap Using Pointers ---\n");
+    printf("Before swap: a = %d, b = %d\n", a, b);
+    swap(&a, &b);
+    printf("After swap: a = %d, b = %d\n", a, b);
+}
+
 int main() {
     pointer_to_pointer_example();
     manage_heap_memory();
     void_pointer();
+    swap_function();
 }
