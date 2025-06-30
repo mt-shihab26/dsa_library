@@ -18,8 +18,8 @@
 -   11. [x] Bubble sort
 -   12. [x] Insertion sort
 -   13. [x] Counting sort
--   14. [x] Basic Recursion examples (Fibonacci)
--   15. [x] Basic Recursion examples (Factorial)
+-   14. [x] Fibonacci recursion examples
+-   15. [x] Factorial recursion examples
 
 ### 3. **Basic Data Structures**
 
