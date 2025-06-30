@@ -4,7 +4,7 @@
 
 -   1. [x] Data types, variables, operators
 -   2. [x] Conditional statements (if, switch)
--   3. [ ] Loops (for, while, do-while)
+-   3. [x] Loops (for, while, do-while)
 -   4. [ ] Functions and recursion
 -   5. [ ] Arrays and strings
 -   6. [ ] Pointers and memory management (`malloc`, `free`)
