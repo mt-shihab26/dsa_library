@@ -23,9 +23,9 @@
 
 ### 3. **Basic Data Structures**
 
--   16. [ ] 1d array
--   17. [ ] 2d array
--   18. [ ] Singly Linked List (Basic operations: insertion, deletion, traversal)
+-   16. [x] 1d array
+-   17. [x] 2d array
+-   18. [x] Singly Linked List (Basic operations: insertion, deletion, traversal)
 
 ---
 
