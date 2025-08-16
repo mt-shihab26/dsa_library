@@ -27,6 +27,14 @@
 -   17. [x] 2d array
 -   18. [x] Singly Linked List (Basic operations: insertion, deletion, traversal)
 
+### 4. **Complexity**
+
+-   19. [x] constant
+-   20. [x] logarithmic
+-   21. [x] linear
+-   22. [x] quadratic
+-   23. [x] cubic
+
 ---
 
 ## **Intermediate Level (Core DSA Mastery in C)**
