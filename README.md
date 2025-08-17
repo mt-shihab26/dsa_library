@@ -2,38 +2,38 @@
 
 ### 1. **C Programming Fundamentals**
 
--   1. [x] Data types, variables, operators
--   2. [x] Conditional statements (if, switch)
--   3. [x] Loops (for, while, do-while)
--   4. [x] Functions and recursion
--   5. [x] Arrays and strings
--   6. [x] Pointers and memory management (`malloc`, `free`)
--   7. [x] Structures and unions
+- [x] Data types, variables, operators
+- [x] Conditional statements (if, switch)
+- [x] Loops (for, while, do-while)
+- [x] Functions and recursion
+- [x] Arrays and strings
+- [x] Pointers and memory management (`malloc`, `free`)
+- [x] Structures and unions
 
 ### 2. **Basic Algorithms**
 
--   8. [x] Linear search,
--   9. [x] Binary search
--   10. [x] Selection sort
--   11. [x] Bubble sort
--   12. [x] Insertion sort
--   13. [x] Counting sort
--   14. [x] Fibonacci recursion examples
--   15. [x] Factorial recursion examples
+- [x] Linear search,
+- [x] Binary search
+- [x] Selection sort
+- [x] Bubble sort
+- [x] Insertion sort
+- [x] Counting sort
+- [x] Fibonacci recursion examples
+- [x] Factorial recursion examples
 
 ### 3. **Basic Data Structures**
 
--   16. [x] 1d array
--   17. [x] 2d array
--   18. [x] Singly Linked List (Basic operations: insertion, deletion, traversal)
+- [x] 1d array
+- [x] 2d array
+- [x] Singly Linked List (Basic operations: insertion, deletion, traversal)
 
 ### 4. **Complexity**
 
--   19. [x] constant
--   20. [x] logarithmic
--   21. [x] linear
--   22. [x] quadratic
--   23. [x] cubic
+- [x] constant
+- [x] logarithmic
+- [x] linear
+- [x] quadratic
+- [x] cubic
 
 ---
 
@@ -41,9 +41,9 @@
 
 ### 1. **Linked Lists**
 
-- Doubly Linked List
-- Circular Linked List
-- Applications and common problems
+-   24. Doubly Linked List
+-   25. Circular Linked List
+-   26. Applications and common problems
 
 ### 2. **Stacks and Queues**
 
