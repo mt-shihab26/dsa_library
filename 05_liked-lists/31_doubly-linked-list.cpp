@@ -149,13 +149,30 @@ class DoublyLinkedList {
         delete i;
     }
 
+    // 10 <-> 25 <-> 30
     void reverse() {
         auto i = head;
         while (i != nullptr) {
-            cout << i->data << " ";
-            i = i->next;
+            auto tmp = i->next;
+            i->next = i->prev;
+            i->prev = tmp;
+
+            i = tmp;
         }
-        cout << "\n";
+        auto tmp = head;
+        head = tail;
+        tail = tmp;
+    }
+
+    void clear() {
+        auto i = head;
+        while (i != nullptr) {
+            auto tmp = i->next;
+            delete i;
+            i = tmp;
+        }
+        head = nullptr;
+        tail = nullptr;
     }
 
     void displayForward() {
@@ -215,13 +232,14 @@ int main() {
     // list->deleteAtPosition(0); // Delete at position 1: 30
     // list->displayForward();
 
-    list->displayForward();
-    list->reverse();
+    // list->displayForward();
+    // list->reverse();
+    // list->displayForward();
+
+    list->clear(); // Clear the list
     list->displayForward();
 
-    // $list->clear(); // Clear the list
-
-    delete list; // Free the memory
+    delete list;
 
     return 0;
 }
