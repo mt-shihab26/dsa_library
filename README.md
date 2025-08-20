@@ -41,9 +41,10 @@
 
 ### 1. **Linked Lists**
 
--   24. Doubly Linked List
--   25. Circular Linked List
--   26. Applications and common problems
+- [x] Singly Linked List
+- [x] Doubly Linked List
+- Circular Linked List
+- Applications and common problems
 
 ### 2. **Stacks and Queues**
 
