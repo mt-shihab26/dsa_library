@@ -34,7 +34,10 @@ class SinglyLinkedlist {
     void insert(int index, int data) {
         auto it = head;
         auto pt = it;
-
+        if (index == 0) {
+            insert(data);
+            return;
+        }
         for (int i = 0; it != nullptr && i < index; i++) {
             pt = it;
             it = it->next;
@@ -62,6 +65,7 @@ class SinglyLinkedlist {
             delete it;
             it = tmp;
         }
+        head = nullptr;
     }
 
     void print() {
@@ -113,6 +117,10 @@ class SinglyLinkedlist {
         if (head == nullptr) {
             return;
         }
+        if (index == 0) {
+            remove();
+            return;
+        }
         auto it = head;
         auto pt = it;
         for (int i = 0; i < index && it != nullptr; i++) {
@@ -156,6 +164,7 @@ int main() {
     list->print();
 
     list->insertTail(30);
+    list->insertTail(40);
     list->print();
 
     cout << "\nTesting size and search\n";
@@ -177,22 +186,25 @@ int main() {
     cout << "After deleting at position 0: ";
     list->print();
 
-    // cout << "\n4. Testing reverse operation:" << endl;
+    list->remove(1);
+    cout << "After deleting at position 1: ";
+    list->print();
+
+    // cout << "\nTesting reverse operation:\n";
     // list->insertTail(40);
     // list->insertTail(50);
     // list->insertTail(60);
     // cout << "Before reverse: ";
-    // list->list();
-    //
+    // list->print();
     // list->reverse();
     // cout << "After reverse: ";
-    // list->list();
-    //
-    // cout << "\n5. Testing clear operation:" << endl;
-    // list->clear();
-    // cout << "After clear: ";
-    // list->list();
-    // cout << "Is empty: " << (list->empty() ? "Yes" : "No") << endl;
+    // list->print();
+
+    cout << "\nTesting clear operation:" << endl;
+    list->clear();
+    cout << "After clear: ";
+    list->print();
+    cout << "Is empty: " << (list->empty() ? "Yes" : "No") << endl;
 
     delete list;
     return 0;
