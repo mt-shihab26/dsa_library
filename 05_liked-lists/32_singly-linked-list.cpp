@@ -145,6 +145,23 @@ class SinglyLinkedlist {
         pt->next = nullptr;
         delete it;
     }
+
+    // <- 1 <- 2  3 -> 4 -> 5
+    void reverse() {
+        Node *prev = nullptr; // Previous Node
+        Node *curr = head;    // Current Node
+
+        while (curr != nullptr) {
+            Node *next = curr->next; // Store the next link
+
+            curr->next = prev; // Reverse the link of current node
+
+            prev = curr; // Move previous node to current node
+            curr = next; // Move current node to next node
+        }
+
+        head = prev; // Upgrade toe new head to last one
+    }
 };
 
 int main() {
@@ -190,15 +207,15 @@ int main() {
     cout << "After deleting at position 1: ";
     list->print();
 
-    // cout << "\nTesting reverse operation:\n";
-    // list->insertTail(40);
-    // list->insertTail(50);
-    // list->insertTail(60);
-    // cout << "Before reverse: ";
-    // list->print();
-    // list->reverse();
-    // cout << "After reverse: ";
-    // list->print();
+    cout << "\nTesting reverse operation:\n";
+    list->insertTail(40);
+    list->insertTail(50);
+    list->insertTail(60);
+    cout << "Before reverse: ";
+    list->print();
+    list->reverse();
+    cout << "After reverse: ";
+    list->print();
 
     cout << "\nTesting clear operation:" << endl;
     list->clear();

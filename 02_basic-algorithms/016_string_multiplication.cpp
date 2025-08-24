@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-template <typename tp> void print(const vector<tp> &vc) {
+template <typename tp>
+void print(const vector<tp> &vc) {
     for (auto &ith : vc)
         cout << ith << " ";
     cout << '\n';
