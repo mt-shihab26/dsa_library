@@ -38,29 +38,15 @@
 
 ## Doubly Linked List Problems
 
-### Easy Level
-
-1. **Middle of the Linked List** (LeetCode 876)
-    - Find the middle node using two pointers technique
-
-2. **Intersection of Two Linked Lists** (LeetCode 160)
-    - Find intersection point of two lists - important pointer manipulation
-
-### Medium Level
-
-1. **Reorder List** (LeetCode 143)
-    - Complex reordering: L0→Ln→L1→Ln-1→L2→Ln-2→...
-
-2. **Sort List** (LeetCode 148)
-    - Sort linked list in O(n log n) - merge sort implementation
-
-### Hard Level
-
-1. **LRU Cache** (LeetCode 146)
-    - Implement LRU cache with doubly linked list + hashmap
-
-2. **Copy List with Random Pointer** (LeetCode 138)
-    - Deep copy with random pointers - complex cloning
+- Easy Level
+    1. [ ] **Middle of the Linked List** (LeetCode 876): Find the middle node using two pointers technique
+    2. [ ] **Intersection of Two Linked Lists** (LeetCode 160): Find intersection point of two lists - important pointer manipulation
+- Medium Level
+    1. [ ] **Reorder List** (LeetCode 143): Complex reordering: L0→Ln→L1→Ln-1→L2→Ln-2→...
+    2. [ ] **Sort List** (LeetCode 148): Sort linked list in O(n log n) - merge sort implementation
+- Hard Level
+    1. [ ] **LRU Cache** (LeetCode 146): Implement LRU cache with doubly linked list + hashmap
+    2. [ ] **Copy List with Random Pointer** (LeetCode 138): Deep copy with random pointers - complex cloning
 
 ## Circular Linked List Problems
 
