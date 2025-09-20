@@ -52,19 +52,19 @@
 - [x] Queue
 - [x] Circular Queue
 
-### 3. **Recursion & Backtracking**
+### 7. **Recursion & Backtracking**
 
 - [x] Recursion
 - [x] Backtracking
 
-### 4. **Trees**
+### 8. **Trees**
 
 - Binary Tree and Binary Search Tree (BST)
 - Tree traversals (Inorder, Preorder, Postorder)
 - Height, diameter, leaf nodes
 - Basic tree operations (insertion, deletion, search)
 
-### 5. **Sorting Algorithms (Efficient)**
+### 9. **Sorting Algorithms (Efficient)**
 
 - Merge Sort
 - Quick Sort
@@ -74,19 +74,19 @@
 
 ## **Advanced Level (Optimizations, Graphs, Complex Problems)**
 
-### 1. **Advanced Trees**
+### 10. **Advanced Trees**
 
 - AVL Trees
 - B-Trees and B+ Trees (basics)
 - Segment Tree
 - Trie (Prefix Tree)
 
-### 2. **Heaps**
+### 11. **Heaps**
 
 - Min Heap and Max Heap implementation
 - Heapify and Priority Queue using Heaps
 
-### 3. **Graphs**
+### 12. **Graphs**
 
 - Representation (Adjacency Matrix, List)
 - Traversal (BFS, DFS)
@@ -94,7 +94,7 @@
 - Shortest Path Algorithms (Dijkstra, Bellman-Ford)
 - Minimum Spanning Tree (Prim’s, Kruskal’s)
 
-### 4. **Dynamic Programming (DP)**
+### 13. **Dynamic Programming (DP)**
 
 - Memoization vs Tabulation
 - Classic problems:
@@ -104,13 +104,13 @@
     - Matrix Chain Multiplication
     - Coin Change
 
-### 5. **Greedy Algorithms**
+### 14. **Greedy Algorithms**
 
 - Activity Selection
 - Huffman Encoding
 - Fractional Knapsack
 
-### 6. **Bit Manipulation**
+### 14. **Bit Manipulation**
 
 - Bitwise operations in C
 - Applications (checking power of 2, counting bits)
@@ -132,7 +132,7 @@
 
 ---
 
-### 1. **Advanced Graph Algorithms**
+### 15. **Advanced Graph Algorithms**
 
 - Strongly Connected Components (Kosaraju’s, Tarjan’s)
 - Union-Find / Disjoint Set Union (DSU) with Path Compression
@@ -148,7 +148,7 @@
 
 ---
 
-### 2. **Advanced Dynamic Programming**
+### 16. **Advanced Dynamic Programming**
 
 - Bitmask DP
 - DP on Trees
@@ -160,7 +160,7 @@
 
 ---
 
-### 3. **Computational Geometry**
+### 17. **Computational Geometry**
 
 - Convex Hull (Graham's scan, Andrew’s monotone chain)
 - Line Intersection
@@ -171,7 +171,7 @@
 
 ---
 
-### 4. **Advanced Data Structures**
+### 18. **Advanced Data Structures**
 
 - Segment Trees with Lazy Propagation
 - Persistent Segment Trees
@@ -184,7 +184,7 @@
 
 ---
 
-### 5. **Mathematics for CS**
+### 19. **Mathematics for CS**
 
 - Number Theory:
     - Modular Arithmetic
@@ -204,7 +204,7 @@
 
 ---
 
-### 6. **Advanced String Algorithms**
+### 20. **Advanced String Algorithms**
 
 - KMP Algorithm
 - Z-Algorithm
@@ -215,7 +215,7 @@
 
 ---
 
-### 7. **Competitive Programming Topics**
+### 21. **Competitive Programming Topics**
 
 - Game Theory (Grundy Numbers, Nim Game)
 - Mo’s Algorithm (Query Optimization)
