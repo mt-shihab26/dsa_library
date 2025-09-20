@@ -39,25 +39,23 @@
 
 ## **Intermediate Level (Core DSA Mastery in C)**
 
-### 1. **Linked Lists**
+### 5. **Linked Lists**
 
 - [x] Singly Linked List
 - [x] Doubly Linked List
-- Circular Linked List
-- Applications and common problems
+- [x] Circular Linked List
 
-### 2. **Stacks and Queues**
+### 6. **Stacks and Queues**
 
-- Using arrays and linked lists
-- Circular Queue
-- Priority Queue (basic)
-- Applications: Expression evaluation, Backtracking
+- [x] Dynamic Array
+- [x] Stack
+- [x] Queue
+- [x] Circular Queue
 
 ### 3. **Recursion & Backtracking**
 
-- Tower of Hanoi
-- Permutations and combinations
-- N-Queens, Sudoku Solver
+- [x] Recursion
+- [x] Backtracking
 
 ### 4. **Trees**
 
