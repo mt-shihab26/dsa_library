@@ -9,3 +9,9 @@ edition = "2024"
 name="hash_table"
 path="13_hash_table/01_hash_table.rs"
 
+[[bin]]
+name="linear_search"
+path="02_searching/05_linear_search.rs"
+
+
+
