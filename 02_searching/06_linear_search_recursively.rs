@@ -21,11 +21,11 @@ where
 }
 
 fn main() {
-    let a = [1, 23, 13, 22, 55, 29];
+    let items = [1, 23, 13, 22, 55, 29];
 
-    let index = linear_search(&a, 13).unwrap();
-
-    println!("index of 13: {}", index);
-
-    assert_eq!(index, 2);
+    for (index, item) in items.iter().enumerate() {
+        let expected = linear_search(&items, *item).unwrap();
+        assert_eq!(index, expected);
+        println!("index of {item} is: {index}");
+    }
 }
