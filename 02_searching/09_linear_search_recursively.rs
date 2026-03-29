@@ -28,4 +28,7 @@ fn main() {
         assert_eq!(index, expected);
         println!("index of {item} is: {index}");
     }
+
+    let expected = linear_search(&items, 100);
+    assert_eq!(None, expected);
 }
