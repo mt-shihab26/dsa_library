@@ -10,3 +10,4 @@ students-classes
 node_modules
 input.txt
 output.txt
+target/

@@ -1,0 +1,11 @@
+[package]
+name = "dsa_library"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name="hash_table"
+path="13_hash_table/01_hash_table.rs"
+
