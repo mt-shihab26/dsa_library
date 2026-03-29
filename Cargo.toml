@@ -17,3 +17,7 @@ path="02_searching/08_linear_search.rs"
 name="linear_search_recursively"
 path="02_searching/09_linear_search_recursively.rs"
 
+[[bin]]
+name="binary_search"
+path="02_searching/10_binary_search.rs"
+
