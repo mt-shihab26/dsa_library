@@ -11,9 +11,9 @@ path="13_hash_table/01_hash_table.rs"
 
 [[bin]]
 name="linear_search"
-path="02_searching/05_linear_search.rs"
+path="02_searching/08_linear_search.rs"
 
 [[bin]]
 name="linear_search_recursively"
-path="02_searching/06_linear_search_recursively.rs"
+path="02_searching/09_linear_search_recursively.rs"
 
