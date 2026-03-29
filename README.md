@@ -1,4 +1,4 @@
-# DSA Library
+# dsa_library
 
 A comprehensive Data Structures and Algorithms learning repository with C/C++ & Rust.
 
