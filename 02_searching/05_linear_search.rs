@@ -17,4 +17,6 @@ fn main() {
     let index = linear_search(&a, 13).unwrap();
 
     println!("index of 13: {}", index);
+
+    assert_eq!(index, 2);
 }
