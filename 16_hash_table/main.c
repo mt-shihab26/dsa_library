@@ -58,6 +58,21 @@ HashTable *hash_table_add(HashTable *h, char *key, char *value) {
     if (h->count >= h->capacity) {
         return NULL;
     }
+    int found = -1;
+    for (int i = 0; i < h->count; i++) {
+        if (strcmp(h->keys[i], key)) {
+            found = i;
+            break;
+        }
+    }
+    if (found != -1) {
+        free(h->values[found]);
+        if (private_hash_table_new_str_add(&h->values[h->count], value) == NULL) {
+            return NULL;
+        }
+        return h;
+    }
+
     if (private_hash_table_new_str_add(&h->keys[h->count], key) == NULL) {
         return NULL;
     }
@@ -65,12 +80,18 @@ HashTable *hash_table_add(HashTable *h, char *key, char *value) {
         return NULL;
     }
     h->count++;
+
     return h;
 }
 
 void hash_table_print(HashTable *h) {
     for (int i = 0; i < h->count; i++) {
         printf("\"%s\" : \"%s\"\n", h->keys[i], h->values[i]);
+    }
+}
+
+char *hash_table_get(HashTable *h, char *key) {
+    for (int i = 0; i < h->count; i++) {
     }
 }
 
