@@ -130,6 +130,20 @@ int main() {
 
     hash_table_print(h);
 
+    char *name = hash_table_get(h, "name");
+    if (name == NULL) {
+        fprintf(stderr, "Cann't able to find \"name\" in hash map named: h\n");
+    } else {
+        printf("name: %s\n", name);
+    }
+
+    char *email = hash_table_get(h, "email");
+    if (email == NULL) {
+        fprintf(stderr, "Cann't able to find \"email\" in hash map named: h\n");
+    } else {
+        printf("email: %s\n", email);
+    }
+
     hash_table_free(h);
 
     return 0;
