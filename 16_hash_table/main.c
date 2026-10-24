@@ -20,24 +20,6 @@ HashTable *hash_table_new(int capacity) {
     return h;
 }
 
-void hash_table_add(HashTable *h, char *key, char *value) {
-    char text[] = "Hello";
-
-    h->keys[h->count] = (char *)malloc((strlen(key) + 1) * sizeof(char));
-    strcpy(h->keys[h->count], key);
-
-    h->values[h->count] = (char *)malloc((strlen(value) + 1) * sizeof(char));
-    strcpy(h->values[h->count], value);
-
-    h->count++;
-}
-
-void hash_table_print(HashTable *h) {
-    for (int i = 0; i < h->count; i++) {
-        printf("\"%s\" : \"%s\"\n", h->keys[i], h->values[i]);
-    }
-}
-
 void hash_table_free(HashTable *h) {
     for (int i = 0; i < h->count; i++) {
         free(h->keys[i]);
@@ -48,12 +30,31 @@ void hash_table_free(HashTable *h) {
     free(h);
 }
 
+void private_hash_table_new_str_add(char **head, char *value) {
+    *head = (char *)malloc((strlen(value) + 1) * sizeof(char));
+    strcpy(*head, value);
+}
+
+void hash_table_add(HashTable *h, char *key, char *value) {
+    private_hash_table_new_str_add(&h->keys[h->count], key);
+    private_hash_table_new_str_add(&h->values[h->count], value);
+
+    h->count++;
+}
+
+void hash_table_print(HashTable *h) {
+    for (int i = 0; i < h->count; i++) {
+        printf("\"%s\" : \"%s\"\n", h->keys[i], h->values[i]);
+    }
+}
+
 int main() {
     HashTable *h = hash_table_new(10);
 
     hash_table_add(h, "name", "Shihab");
     hash_table_add(h, "age", "23");
     hash_table_add(h, "type", "Humen");
+    hash_table_add(h, "type", "Hi");
 
     hash_table_print(h);
 
