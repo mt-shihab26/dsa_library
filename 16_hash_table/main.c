@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h>
 
 typedef struct {
     int capacity;
@@ -44,22 +45,27 @@ void hash_table_free(HashTable *h) {
     free(h);
 }
 
-void private_hash_table_new_str_add(char **head, char *value) {
+char *private_hash_table_new_str_add(char **head, char *value) {
     *head = (char *)malloc((strlen(value) + 1) * sizeof(char));
     if (*head == NULL) {
+        return NULL;
     }
     strcpy(*head, value);
+    return *head;
 }
 
-void hash_table_add(HashTable *h, char *key, char *value) {
+HashTable *hash_table_add(HashTable *h, char *key, char *value) {
     if (h->count >= h->capacity) {
-        return;
+        return NULL;
     }
-
-    private_hash_table_new_str_add(&h->keys[h->count], key);
-    private_hash_table_new_str_add(&h->values[h->count], value);
-
+    if (private_hash_table_new_str_add(&h->keys[h->count], key) == NULL) {
+        return NULL;
+    }
+    if (private_hash_table_new_str_add(&h->values[h->count], value) == NULL) {
+        return NULL;
+    }
     h->count++;
+    return h;
 }
 
 void hash_table_print(HashTable *h) {
