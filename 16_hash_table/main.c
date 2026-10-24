@@ -55,28 +55,26 @@ char *private_hash_table_new_str_add(char **head, char *value) {
 }
 
 HashTable *hash_table_add(HashTable *h, char *key, char *value) {
+    for (int i = 0; i < h->count; i++) {
+        if (strcmp(h->keys[i], key) == 0) {
+            char *new_value;
+            if (private_hash_table_new_str_add(&new_value, value) == NULL) {
+                return NULL;
+            }
+            free(h->values[i]);
+            h->values[i] = new_value;
+            return h;
+        }
+    }
+
     if (h->count >= h->capacity) {
         return NULL;
     }
-    int found = -1;
-    for (int i = 0; i < h->count; i++) {
-        if (strcmp(h->keys[i], key)) {
-            found = i;
-            break;
-        }
-    }
-    if (found != -1) {
-        free(h->values[found]);
-        if (private_hash_table_new_str_add(&h->values[h->count], value) == NULL) {
-            return NULL;
-        }
-        return h;
-    }
-
     if (private_hash_table_new_str_add(&h->keys[h->count], key) == NULL) {
         return NULL;
     }
     if (private_hash_table_new_str_add(&h->values[h->count], value) == NULL) {
+        free(h->keys[h->count]);
         return NULL;
     }
     h->count++;
@@ -92,7 +90,11 @@ void hash_table_print(HashTable *h) {
 
 char *hash_table_get(HashTable *h, char *key) {
     for (int i = 0; i < h->count; i++) {
+        if (strcmp(h->keys[i], key) == 0) {
+            return h->values[i];
+        }
     }
+    return NULL;
 }
 
 int main() {
