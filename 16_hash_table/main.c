@@ -137,11 +137,11 @@ int main() {
         printf("name: %s\n", name);
     }
 
-    char *email = hash_table_get(h, "email");
+    char *email = hash_table_get(h, "type");
     if (email == NULL) {
-        fprintf(stderr, "Cann't able to find \"email\" in hash table named: h\n");
+        fprintf(stderr, "Cann't able to find \"type\" in hash table named: h\n");
     } else {
-        printf("email: %s\n", email);
+        printf("type: %s\n", email);
     }
 
     hash_table_free(h);
