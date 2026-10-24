@@ -11,11 +11,25 @@ typedef struct {
 
 HashTable *hash_table_new(int capacity) {
     HashTable *h = malloc(sizeof(*h));
+    if (h == NULL) {
+        return NULL;
+    }
 
     h->count = 0;
     h->capacity = capacity;
+
     h->keys = malloc(capacity * sizeof(char *));
+    if (h->keys == NULL) {
+        free(h);
+        return NULL;
+    }
+
     h->values = malloc(capacity * sizeof(char *));
+    if (h->values == NULL) {
+        free(h->keys);
+        free(h);
+        return NULL;
+    }
 
     return h;
 }
@@ -32,10 +46,16 @@ void hash_table_free(HashTable *h) {
 
 void private_hash_table_new_str_add(char **head, char *value) {
     *head = (char *)malloc((strlen(value) + 1) * sizeof(char));
+    if (*head == NULL) {
+    }
     strcpy(*head, value);
 }
 
 void hash_table_add(HashTable *h, char *key, char *value) {
+    if (h->count >= h->capacity) {
+        return;
+    }
+
     private_hash_table_new_str_add(&h->keys[h->count], key);
     private_hash_table_new_str_add(&h->values[h->count], value);
 
@@ -50,6 +70,10 @@ void hash_table_print(HashTable *h) {
 
 int main() {
     HashTable *h = hash_table_new(10);
+    if (h == NULL) {
+        printf("Cann't able to create new hash map named: h");
+        return 1;
+    }
 
     hash_table_add(h, "name", "Shihab");
     hash_table_add(h, "age", "23");
