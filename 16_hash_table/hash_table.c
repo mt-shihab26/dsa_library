@@ -40,7 +40,7 @@ void hash_table_free(HashTable *h) {
     free(h);
 }
 
-char *private_hash_table_new_str_add(char **head, char *value) {
+char *hash_table_new_str_add(char **head, char *value) {
     *head = (char *)malloc((strlen(value) + 1) * sizeof(char));
     if (*head == NULL) {
         return NULL;
@@ -53,7 +53,7 @@ HashTable *hash_table_add(HashTable *h, char *key, char *value) {
     for (int i = 0; i < h->count; i++) {
         if (strcmp(h->keys[i], key) == 0) {
             char *new_value;
-            if (private_hash_table_new_str_add(&new_value, value) == NULL) {
+            if (hash_table_new_str_add(&new_value, value) == NULL) {
                 return NULL;
             }
             free(h->values[i]);
@@ -65,22 +65,16 @@ HashTable *hash_table_add(HashTable *h, char *key, char *value) {
     if (h->count >= h->capacity) {
         return NULL;
     }
-    if (private_hash_table_new_str_add(&h->keys[h->count], key) == NULL) {
+    if (hash_table_new_str_add(&h->keys[h->count], key) == NULL) {
         return NULL;
     }
-    if (private_hash_table_new_str_add(&h->values[h->count], value) == NULL) {
+    if (hash_table_new_str_add(&h->values[h->count], value) == NULL) {
         free(h->keys[h->count]);
         return NULL;
     }
     h->count++;
 
     return h;
-}
-
-void hash_table_print(HashTable *h) {
-    for (int i = 0; i < h->count; i++) {
-        printf("\"%s\" : \"%s\"\n", h->keys[i], h->values[i]);
-    }
 }
 
 char *hash_table_get(HashTable *h, char *key) {
@@ -90,4 +84,10 @@ char *hash_table_get(HashTable *h, char *key) {
         }
     }
     return NULL;
+}
+
+void hash_table_print(HashTable *h) {
+    for (int i = 0; i < h->count; i++) {
+        printf("\"%s\" : \"%s\"\n", h->keys[i], h->values[i]);
+    }
 }
