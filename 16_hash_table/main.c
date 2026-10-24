@@ -77,14 +77,30 @@ void hash_table_print(HashTable *h) {
 int main() {
     HashTable *h = hash_table_new(10);
     if (h == NULL) {
-        printf("Cann't able to create new hash map named: h");
+        printf("Cann't able to create new hash map named: h\n");
         return 1;
     }
 
-    hash_table_add(h, "name", "Shihab");
-    hash_table_add(h, "age", "23");
-    hash_table_add(h, "type", "Humen");
-    hash_table_add(h, "type", "Hi");
+    if (hash_table_add(h, "name", "Shihab") == NULL) {
+        printf("Cann't able to add \"name\" to hash map named: h\n");
+        hash_table_free(h);
+        return 1;
+    }
+    if (hash_table_add(h, "age", "23") == NULL) {
+        printf("Cann't able to add \"age\" to hash map named: h\n");
+        hash_table_free(h);
+        return 1;
+    }
+    if (hash_table_add(h, "type", "Humen") == NULL) {
+        printf("Cann't able to add \"type\" to hash map named: h\n");
+        hash_table_free(h);
+        return 1;
+    }
+    if (hash_table_add(h, "type", "Hi") == NULL) {
+        printf("Cann't able to add \"type\" to hash map named: h\n");
+        hash_table_free(h);
+        return 1;
+    }
 
     hash_table_print(h);
 
