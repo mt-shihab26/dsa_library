@@ -14,7 +14,10 @@ A comprehensive Data Structures and Algorithms learning repository with C/C++ & 
 - [x] **07_queue** - Queue data structure
 - [x] **08_liked_list** - Linked lists
 - [x] **09_recursion** - Recursive problem solving
-- [ ] **10_adhoc** - Ad-hoc problems
-- [ ] **11_misc** - Miscellaneous algorithms
-- [ ] **12_graph** - Graph algorithms
-- [ ] **13_hash_table** - Hash table implementations
+- [x] **10_hashing** - Hashing and pre-computation
+- [x] **11_prefix_Sum** - 1D and 2D prefix sums
+- [x] **12_two_pointer** - Two pointer technique
+- [x] **13_random_number** - Random number generation
+- [x] **14_interactive_problems** - Interactive problems
+- [ ] **15_graph** - Graph algorithms
+- [ ] **16_hash_table** - Hash table implementations
